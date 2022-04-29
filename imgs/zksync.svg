@@ -1,0 +1,1662 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2127pt" height="2817pt" viewBox="0.00 0.00 2126.94 2817.00">
+<g id="graph0" class="graph" transform="translate(6.753662109375,2813) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-2813 2122.94,-2813 2122.94,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterZkSync">
+
+<path fill="#445773" stroke="#445773" d="M20,-1556C20,-1556 2029.75,-1556 2029.75,-1556 2035.75,-1556 2041.75,-1562 2041.75,-1568 2041.75,-1568 2041.75,-2349 2041.75,-2349 2041.75,-2355 2035.75,-2361 2029.75,-2361 2029.75,-2361 20,-2361 20,-2361 14,-2361 8,-2355 8,-2349 8,-2349 8,-1568 8,-1568 8,-1562 14,-1556 20,-1556" style=""/>
+<text text-anchor="middle" x="1024.87" y="-2344.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ZkSync</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterupgradeStartTimestamp">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M441.06,-1471C441.06,-1471 567.06,-1471 567.06,-1471 573.06,-1471 579.06,-1477 579.06,-1483 579.06,-1483 579.06,-1536 579.06,-1536 579.06,-1542 573.06,-1548 567.06,-1548 567.06,-1548 441.06,-1548 441.06,-1548 435.06,-1548 429.06,-1542 429.06,-1536 429.06,-1536 429.06,-1483 429.06,-1483 429.06,-1477 435.06,-1471 441.06,-1471" style=""/>
+<text text-anchor="middle" x="504.06" y="-1531.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">upgradeStartTimestamp</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterIERC20">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1559.07,-1210C1559.07,-1210 1673.97,-1210 1673.97,-1210 1679.97,-1210 1685.97,-1216 1685.97,-1222 1685.97,-1222 1685.97,-1383 1685.97,-1383 1685.97,-1389 1679.97,-1395 1673.97,-1395 1673.97,-1395 1559.07,-1395 1559.07,-1395 1553.07,-1395 1547.07,-1389 1547.07,-1383 1547.07,-1383 1547.07,-1222 1547.07,-1222 1547.07,-1216 1553.07,-1210 1559.07,-1210" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1378.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20</text>
+</g>
+<g id="clust4" class="cluster" data-name="clusterbalanceBefore">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1580.52,-1471C1580.52,-1471 1652.52,-1471 1652.52,-1471 1658.52,-1471 1664.52,-1477 1664.52,-1483 1664.52,-1483 1664.52,-1536 1664.52,-1536 1664.52,-1542 1658.52,-1548 1652.52,-1548 1652.52,-1548 1580.52,-1548 1580.52,-1548 1574.52,-1548 1568.52,-1542 1568.52,-1536 1568.52,-1536 1568.52,-1483 1568.52,-1483 1568.52,-1477 1574.52,-1471 1580.52,-1471" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1531.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">balanceBefore</text>
+</g>
+<g id="clust5" class="cluster" data-name="clusterSafeCast">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M706.35,-1471C706.35,-1471 798.75,-1471 798.75,-1471 804.75,-1471 810.75,-1477 810.75,-1483 810.75,-1483 810.75,-1536 810.75,-1536 810.75,-1542 804.75,-1548 798.75,-1548 798.75,-1548 706.35,-1548 706.35,-1548 700.35,-1548 694.35,-1542 694.35,-1536 694.35,-1536 694.35,-1483 694.35,-1483 694.35,-1477 700.35,-1471 706.35,-1471" style=""/>
+<text text-anchor="middle" x="752.55" y="-1531.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">SafeCast</text>
+</g>
+<g id="clust6" class="cluster" data-name="clustergovernance">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1519.93,-879C1519.93,-879 1713.11,-879 1713.11,-879 1719.11,-879 1725.11,-885 1725.11,-891 1725.11,-891 1725.11,-1160 1725.11,-1160 1725.11,-1166 1719.11,-1172 1713.11,-1172 1713.11,-1172 1519.93,-1172 1519.93,-1172 1513.93,-1172 1507.93,-1166 1507.93,-1160 1507.93,-1160 1507.93,-891 1507.93,-891 1507.93,-885 1513.93,-879 1519.93,-879" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1155.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">governance</text>
+</g>
+<g id="clust7" class="cluster" data-name="clusterbalanceAfter">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M720.55,-769C720.55,-769 784.55,-769 784.55,-769 790.55,-769 796.55,-775 796.55,-781 796.55,-781 796.55,-834 796.55,-834 796.55,-840 790.55,-846 784.55,-846 784.55,-846 720.55,-846 720.55,-846 714.55,-846 708.55,-840 708.55,-834 708.55,-834 708.55,-781 708.55,-781 708.55,-775 714.55,-769 720.55,-769" style=""/>
+<text text-anchor="middle" x="752.55" y="-829.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">balanceAfter</text>
+</g>
+<g id="clust8" class="cluster" data-name="clusterUtils">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1820.98,-1309C1820.98,-1309 2098.94,-1309 2098.94,-1309 2104.94,-1309 2110.94,-1315 2110.94,-1321 2110.94,-1321 2110.94,-1536 2110.94,-1536 2110.94,-1542 2104.94,-1548 2098.94,-1548 2098.94,-1548 1820.98,-1548 1820.98,-1548 1814.98,-1548 1808.98,-1542 1808.98,-1536 1808.98,-1536 1808.98,-1321 1808.98,-1321 1808.98,-1315 1814.98,-1309 1820.98,-1309" style=""/>
+<text text-anchor="middle" x="1959.96" y="-1531.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Utils</text>
+</g>
+<g id="clust9" class="cluster" data-name="clusterNFTFactory">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1216.69,-1471C1216.69,-1471 1404.6,-1471 1404.6,-1471 1410.6,-1471 1416.6,-1477 1416.6,-1483 1416.6,-1483 1416.6,-1536 1416.6,-1536 1416.6,-1542 1410.6,-1548 1404.6,-1548 1404.6,-1548 1216.69,-1548 1216.69,-1548 1210.69,-1548 1204.69,-1542 1204.69,-1536 1204.69,-1536 1204.69,-1483 1204.69,-1483 1204.69,-1477 1210.69,-1471 1216.69,-1471" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1531.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">NFTFactory</text>
+</g>
+<g id="clust10" class="cluster" data-name="clusterOperations">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1458.74,-8C1458.74,-8 1774.3,-8 1774.3,-8 1780.3,-8 1786.3,-14 1786.3,-20 1786.3,-20 1786.3,-829 1786.3,-829 1786.3,-835 1780.3,-841 1774.3,-841 1774.3,-841 1458.74,-841 1458.74,-841 1452.74,-841 1446.74,-835 1446.74,-829 1446.74,-829 1446.74,-20 1446.74,-20 1446.74,-14 1452.74,-8 1458.74,-8" style=""/>
+<text text-anchor="middle" x="1616.52" y="-824.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Operations</text>
+</g>
+<g id="clust11" class="cluster" data-name="clusterverifier">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M632.88,-2369C632.88,-2369 872.22,-2369 872.22,-2369 878.22,-2369 884.22,-2375 884.22,-2381 884.22,-2381 884.22,-2434 884.22,-2434 884.22,-2440 878.22,-2446 872.22,-2446 872.22,-2446 632.88,-2446 632.88,-2446 626.88,-2446 620.88,-2440 620.88,-2434 620.88,-2434 620.88,-2381 620.88,-2381 620.88,-2375 626.88,-2369 632.88,-2369" style=""/>
+<text text-anchor="middle" x="752.55" y="-2429.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">verifier</text>
+</g>
+<g id="clust12" class="cluster" data-name="clusterBytes">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1858.51,-2454C1858.51,-2454 2061.41,-2454 2061.41,-2454 2067.41,-2454 2073.41,-2460 2073.41,-2466 2073.41,-2466 2073.41,-2789 2073.41,-2789 2073.41,-2795 2067.41,-2801 2061.41,-2801 2061.41,-2801 1858.51,-2801 1858.51,-2801 1852.51,-2801 1846.51,-2795 1846.51,-2789 1846.51,-2789 1846.51,-2466 1846.51,-2466 1846.51,-2460 1852.51,-2454 1858.51,-2454" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2784.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Bytes</text>
+</g>
+<g id="clust13" class="cluster" data-name="clusterbalance">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1936.96,-2369C1936.96,-2369 1982.96,-2369 1982.96,-2369 1988.96,-2369 1994.96,-2375 1994.96,-2381 1994.96,-2381 1994.96,-2434 1994.96,-2434 1994.96,-2440 1988.96,-2446 1982.96,-2446 1982.96,-2446 1936.96,-2446 1936.96,-2446 1930.96,-2446 1924.96,-2440 1924.96,-2434 1924.96,-2434 1924.96,-2381 1924.96,-2381 1924.96,-2375 1930.96,-2369 1936.96,-2369" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2429.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">balance</text>
+</g>
+<g id="clust14" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="124.62,-2520 124.62,-2649 539.06,-2649 539.06,-2520 124.62,-2520" style=""/>
+<text text-anchor="middle" x="331.84" y="-2632.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- ZkSync.getNoticePeriod -->
+<g id="node1" class="node" pointer-events="visible" data-name="ZkSync.getNoticePeriod">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-2310" rx="73.58" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-2305.8" font-family="Times,serif" font-size="14.00" style="">getNoticePeriod</text>
+</g>
+<!-- ZkSync.upgradeNoticePeriodStarted -->
+<g id="node2" class="node" pointer-events="visible" data-name="ZkSync.upgradeNoticePeriodStarted">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-2256" rx="120.39" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-2251.8" font-family="Times,serif" font-size="14.00" style="">upgradeNoticePeriodStarted</text>
+</g>
+<!-- ZkSync.upgradePreparationStarted -->
+<g id="node3" class="node" pointer-events="visible" data-name="ZkSync.upgradePreparationStarted">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-1582" rx="114.01" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-1577.8" font-family="Times,serif" font-size="14.00" style="">upgradePreparationStarted</text>
+</g>
+<!-- upgradeStartTimestamp.add -->
+<g id="node72" class="node" pointer-events="visible" data-name="upgradeStartTimestamp.add">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="504.06" cy="-1497" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1492.8" font-family="Times,serif" font-size="14.00" style="">add</text>
+</g>
+<!-- ZkSync.upgradePreparationStarted&#45;&gt;upgradeStartTimestamp.add -->
+<g id="edge1" class="edge" data-name="ZkSync.upgradePreparationStarted-&gt;upgradeStartTimestamp.add">
+
+<path fill="none" stroke="white" stroke-width="2" d="M254.81,-1566.31C317.63,-1548.77 417.32,-1520.94 469.19,-1506.46" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="470.21,-1509.8 478.91,-1503.74 468.33,-1503.06 470.21,-1509.8" style=""/>
+</g>
+<!-- ZkSync.clearUpgradeStatus -->
+<g id="node4" class="node" pointer-events="visible" data-name="ZkSync.clearUpgradeStatus">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="504.06" cy="-2307" rx="86.8" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-2302.8" font-family="Times,serif" font-size="14.00" style="">clearUpgradeStatus</text>
+</g>
+<!-- ZkSync.NoticePeriodChange -->
+<g id="node50" class="node" pointer-events="visible" data-name="ZkSync.NoticePeriodChange">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-2310" rx="91.48" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-2305.8" font-family="Times,serif" font-size="14.00" style="">NoticePeriodChange</text>
+</g>
+<!-- ZkSync.clearUpgradeStatus&#45;&gt;ZkSync.NoticePeriodChange -->
+<g id="edge2" class="edge" data-name="ZkSync.clearUpgradeStatus-&gt;ZkSync.NoticePeriodChange">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M590.58,-2308.04C610.09,-2308.28 630.99,-2308.53 651.06,-2308.78" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="651.11,-2312.28 661.15,-2308.9 651.19,-2305.28 651.11,-2312.28" style=""/>
+</g>
+<!-- ZkSync.upgradeCanceled -->
+<g id="node5" class="node" pointer-events="visible" data-name="ZkSync.upgradeCanceled">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-2202" rx="78.13" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-2197.8" font-family="Times,serif" font-size="14.00" style="">upgradeCanceled</text>
+</g>
+<!-- ZkSync.upgradeCanceled&#45;&gt;ZkSync.clearUpgradeStatus -->
+<g id="edge3" class="edge" data-name="ZkSync.upgradeCanceled-&gt;ZkSync.clearUpgradeStatus">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M275.73,-2200.24C309.62,-2202.68 348.6,-2210.12 379.23,-2229 402.86,-2243.56 392.77,-2263.72 415.23,-2280 420.7,-2283.96 426.76,-2287.35 433.07,-2290.25" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="431.87,-2293.54 442.45,-2294.16 434.56,-2287.08 431.87,-2293.54" style=""/>
+</g>
+<!-- ZkSync.upgradeFinishes -->
+<g id="node6" class="node" pointer-events="visible" data-name="ZkSync.upgradeFinishes">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-2148" rx="74.17" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-2143.8" font-family="Times,serif" font-size="14.00" style="">upgradeFinishes</text>
+</g>
+<!-- ZkSync.upgradeFinishes&#45;&gt;ZkSync.clearUpgradeStatus -->
+<g id="edge4" class="edge" data-name="ZkSync.upgradeFinishes-&gt;ZkSync.clearUpgradeStatus">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M268.18,-2142.05C305,-2142.61 348.78,-2149.64 379.23,-2175 417.14,-2206.57 379.8,-2245.68 415.23,-2280 419.49,-2284.12 424.36,-2287.62 429.58,-2290.58" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="428.13,-2293.77 438.64,-2295.08 431.24,-2287.5 428.13,-2293.77" style=""/>
+</g>
+<!-- ZkSync.isReadyForUpgrade -->
+<g id="node7" class="node" pointer-events="visible" data-name="ZkSync.isReadyForUpgrade">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-2040" rx="88.62" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-2035.8" font-family="Times,serif" font-size="14.00" style="">isReadyForUpgrade</text>
+</g>
+<!-- ZkSync.&lt;Constructor&gt; -->
+<g id="node8" class="node" pointer-events="visible" data-name="ZkSync.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="504.06" cy="-2253" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-2248.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- ZkSync.initializeReentrancyGuard -->
+<g id="node51" class="node" pointer-events="visible" data-name="ZkSync.initializeReentrancyGuard">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-2256" rx="112.85" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-2251.8" font-family="Times,serif" font-size="14.00" style="">initializeReentrancyGuard</text>
+</g>
+<!-- ZkSync.&lt;Constructor&gt;&#45;&gt;ZkSync.initializeReentrancyGuard -->
+<g id="edge5" class="edge" data-name="ZkSync.&lt;Constructor&gt;-&gt;ZkSync.initializeReentrancyGuard">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M571.76,-2253.81C589.69,-2254.03 609.66,-2254.27 629.58,-2254.52" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="629.63,-2258.02 639.67,-2254.64 629.71,-2251.02 629.63,-2258.02" style=""/>
+</g>
+<!-- ZkSync.initialize -->
+<g id="node9" class="node" pointer-events="visible" data-name="ZkSync.initialize">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="504.06" cy="-2196" rx="44.64" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-2191.8" font-family="Times,serif" font-size="14.00" style="">initialize</text>
+</g>
+<!-- ZkSync.initialize&#45;&gt;ZkSync.NoticePeriodChange -->
+<g id="edge12" class="edge" data-name="ZkSync.initialize-&gt;ZkSync.NoticePeriodChange">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M545.64,-2202.84C561.82,-2207.24 579.7,-2214.4 592.88,-2226 614.07,-2244.65 598.57,-2265.72 620.88,-2283 631.32,-2291.08 643.58,-2296.9 656.34,-2301.07" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="655.59,-2304.5 666.17,-2303.94 657.56,-2297.78 655.59,-2304.5" style=""/>
+</g>
+<!-- ZkSync.initialize&#45;&gt;ZkSync.initializeReentrancyGuard -->
+<g id="edge6" class="edge" data-name="ZkSync.initialize-&gt;ZkSync.initializeReentrancyGuard">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M540.11,-2206.71C562.99,-2213.53 593.57,-2222.3 620.88,-2229 636.63,-2232.86 653.53,-2236.63 669.77,-2240.07" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="669.28,-2243.54 679.79,-2242.16 670.72,-2236.69 669.28,-2243.54" style=""/>
+</g>
+<!-- ZkSync.Verifier -->
+<g id="node52" class="node" pointer-events="visible" data-name="ZkSync.Verifier">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-2148" rx="41.69" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-2143.8" font-family="Times,serif" font-size="14.00" style="">Verifier</text>
+</g>
+<!-- ZkSync.initialize&#45;&gt;ZkSync.Verifier -->
+<g id="edge7" class="edge" data-name="ZkSync.initialize-&gt;ZkSync.Verifier">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M544.66,-2188.29C588.06,-2179.84 657.65,-2166.29 703.98,-2157.26" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="704.92,-2160.65 714.07,-2155.3 703.58,-2153.78 704.92,-2160.65" style=""/>
+</g>
+<!-- ZkSync.Governance -->
+<g id="node53" class="node" pointer-events="visible" data-name="ZkSync.Governance">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-2202" rx="57.87" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-2197.8" font-family="Times,serif" font-size="14.00" style="">Governance</text>
+</g>
+<!-- ZkSync.initialize&#45;&gt;ZkSync.Governance -->
+<g id="edge8" class="edge" data-name="ZkSync.initialize-&gt;ZkSync.Governance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M548.84,-2197.07C586.5,-2197.98 641.4,-2199.32 684.58,-2200.37" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="684.64,-2203.87 694.72,-2200.62 684.81,-2196.87 684.64,-2203.87" style=""/>
+</g>
+<!-- ZkSync.AdditionalZkSync -->
+<g id="node54" class="node" pointer-events="visible" data-name="ZkSync.AdditionalZkSync">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-2074" rx="82.27" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-2069.8" font-family="Times,serif" font-size="14.00" style="">AdditionalZkSync</text>
+</g>
+<!-- ZkSync.initialize&#45;&gt;ZkSync.AdditionalZkSync -->
+<g id="edge9" class="edge" data-name="ZkSync.initialize-&gt;ZkSync.AdditionalZkSync">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M547.15,-2190.61C563,-2186.78 580.23,-2180.22 592.88,-2169 615.81,-2148.67 597.38,-2125.65 620.88,-2106 633.65,-2095.33 649.42,-2088.12 665.54,-2083.27" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="666.86,-2086.54 675.6,-2080.55 665.03,-2079.78 666.86,-2086.54" style=""/>
+</g>
+<!-- ZkSync.StoredBlockInfo -->
+<g id="node55" class="node" pointer-events="visible" data-name="ZkSync.StoredBlockInfo">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1040.72" cy="-2310" rx="75.31" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-2305.8" font-family="Times,serif" font-size="14.00" style="">StoredBlockInfo</text>
+</g>
+<!-- ZkSync.initialize&#45;&gt;ZkSync.StoredBlockInfo -->
+<g id="edge10" class="edge" data-name="ZkSync.initialize-&gt;ZkSync.StoredBlockInfo">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M546.54,-2189.88C562.3,-2185.94 579.64,-2179.51 592.88,-2169 612.24,-2153.65 599.47,-2133.3 620.88,-2121 646.26,-2106.43 861.84,-2102.15 884.22,-2121 940.11,-2168.06 861.53,-2230.37 912.22,-2283 923.72,-2294.94 939.09,-2302.26 955.16,-2306.62" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="954.7,-2310.11 965.24,-2308.97 956.29,-2303.29 954.7,-2310.11" style=""/>
+</g>
+<!-- ZkSync.hashStoredBlockInfo -->
+<g id="node56" class="node" pointer-events="visible" data-name="ZkSync.hashStoredBlockInfo">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-1966" rx="93.21" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-1961.8" font-family="Times,serif" font-size="14.00" style="">hashStoredBlockInfo</text>
+</g>
+<!-- ZkSync.initialize&#45;&gt;ZkSync.hashStoredBlockInfo -->
+<g id="edge11" class="edge" data-name="ZkSync.initialize-&gt;ZkSync.hashStoredBlockInfo">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M548.31,-2192.3C564.51,-2188.72 581.69,-2181.89 592.88,-2169 644.82,-2109.2 566.18,-2050.28 620.88,-1993 629.38,-1984.1 639.98,-1977.73 651.44,-1973.23" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="652.92,-1976.42 661.25,-1969.87 650.65,-1969.8 652.92,-1976.42" style=""/>
+</g>
+<!-- ZkSync.upgrade -->
+<g id="node10" class="node" pointer-events="visible" data-name="ZkSync.upgrade">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="504.06" cy="-2142" rx="42.28" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-2137.8" font-family="Times,serif" font-size="14.00" style="">upgrade</text>
+</g>
+<!-- ZkSync.upgrade&#45;&gt;ZkSync.AdditionalZkSync -->
+<g id="edge13" class="edge" data-name="ZkSync.upgrade-&gt;ZkSync.AdditionalZkSync">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M538.87,-2131.72C555.21,-2126.72 575.08,-2120.6 592.88,-2115 605.35,-2111.08 608.31,-2109.56 620.88,-2106 641.65,-2100.13 664.44,-2094.33 685.1,-2089.31" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="686.14,-2092.66 695.05,-2086.91 684.5,-2085.85 686.14,-2092.66" style=""/>
+</g>
+<!-- ZkSync.$ -->
+<g id="node57" class="node" pointer-events="visible" data-name="ZkSync.$">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-2020" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-2015.8" font-family="Times,serif" font-size="14.00" style="">$</text>
+</g>
+<!-- ZkSync.upgrade&#45;&gt;ZkSync.$ -->
+<g id="edge14" class="edge" data-name="ZkSync.upgrade-&gt;ZkSync.$">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M545.08,-2137.31C561.55,-2133.59 579.8,-2126.93 592.88,-2115 617.04,-2092.98 595.72,-2067.85 620.88,-2047 647.25,-2025.15 686.75,-2019.53 715.41,-2018.68" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="715.48,-2022.18 725.43,-2018.57 715.39,-2015.18 715.48,-2022.18" style=""/>
+</g>
+<!-- ZkSync.cutUpgradeNoticePeriod -->
+<g id="node11" class="node" pointer-events="visible" data-name="ZkSync.cutUpgradeNoticePeriod">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-1932" rx="107.07" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-1927.8" font-family="Times,serif" font-size="14.00" style="">cutUpgradeNoticePeriod</text>
+</g>
+<!-- ZkSync.delegateAdditional -->
+<g id="node49" class="node" pointer-events="visible" data-name="ZkSync.delegateAdditional">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="504.06" cy="-1980" rx="84.52" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1975.8" font-family="Times,serif" font-size="14.00" style="">delegateAdditional</text>
+</g>
+<!-- ZkSync.cutUpgradeNoticePeriod&#45;&gt;ZkSync.delegateAdditional -->
+<g id="edge15" class="edge" data-name="ZkSync.cutUpgradeNoticePeriod-&gt;ZkSync.delegateAdditional">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M279.14,-1943.69C310.41,-1948.32 346.52,-1953.78 379.23,-1959 395.02,-1961.52 411.91,-1964.31 427.99,-1967.02" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="427.43,-1970.48 437.87,-1968.7 428.6,-1963.58 427.43,-1970.48" style=""/>
+</g>
+<!-- ZkSync.cutUpgradeNoticePeriodBySignature -->
+<g id="node12" class="node" pointer-events="visible" data-name="ZkSync.cutUpgradeNoticePeriodBySignature">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-1878" rx="155.13" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-1873.8" font-family="Times,serif" font-size="14.00" style="">cutUpgradeNoticePeriodBySignature</text>
+</g>
+<!-- ZkSync.cutUpgradeNoticePeriodBySignature&#45;&gt;ZkSync.delegateAdditional -->
+<g id="edge16" class="edge" data-name="ZkSync.cutUpgradeNoticePeriodBySignature-&gt;ZkSync.delegateAdditional">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M332.98,-1886.87C349.17,-1891.15 364.99,-1897.01 379.23,-1905 400.97,-1917.19 394.83,-1933.69 415.23,-1948 423.12,-1953.53 432.08,-1958.22 441.18,-1962.16" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="440.09,-1965.49 450.68,-1965.99 442.71,-1959 440.09,-1965.49" style=""/>
+</g>
+<!-- ZkSync.transferERC20 -->
+<g id="node13" class="node" pointer-events="visible" data-name="ZkSync.transferERC20">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1310.64" cy="-1636" rx="68.93" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1631.8" font-family="Times,serif" font-size="14.00" style="">transferERC20</text>
+</g>
+<!-- IERC20.balanceOf -->
+<g id="node73" class="node" pointer-events="visible" data-name="IERC20.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1290" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1285.8" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- ZkSync.transferERC20&#45;&gt;IERC20.balanceOf -->
+<g id="edge17" class="edge" data-name="ZkSync.transferERC20-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1367.11,-1625.62C1385.43,-1621.57 1404.26,-1614.33 1416.6,-1600 1459.17,-1550.57 1401.92,-1355.4 1446.74,-1308 1477.53,-1275.44 1530.72,-1271.9 1569.18,-1276.32" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1568.72,-1279.79 1579.1,-1277.68 1569.67,-1272.85 1568.72,-1279.79" style=""/>
+</g>
+<!-- ZkSync.transferERC20&#45;&gt;IERC20.balanceOf -->
+<g id="edge19" class="edge" data-name="ZkSync.transferERC20-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1377.78,-1640.3C1392.49,-1636.49 1406.65,-1629.55 1416.6,-1618 1459.17,-1568.57 1401.92,-1373.4 1446.74,-1326 1474.05,-1297.13 1518.97,-1291.08 1555.6,-1290.58" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1555.7,-1294.08 1565.7,-1290.57 1555.69,-1287.08 1555.7,-1294.08" style=""/>
+</g>
+<!-- IERC20.transfer -->
+<g id="node74" class="node" pointer-events="visible" data-name="IERC20.transfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1344" rx="40.55" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1339.8" font-family="Times,serif" font-size="14.00" style="">transfer</text>
+</g>
+<!-- ZkSync.transferERC20&#45;&gt;IERC20.transfer -->
+<g id="edge18" class="edge" data-name="ZkSync.transferERC20-&gt;IERC20.transfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1376.94,-1630.82C1391.67,-1626.75 1406.05,-1620 1416.6,-1609 1461.24,-1562.42 1411.65,-1521.14 1446.74,-1467 1479.06,-1417.15 1539.16,-1380.72 1578.23,-1360.96" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1579.78,-1364.09 1587.19,-1356.53 1576.68,-1357.82 1579.78,-1364.09" style=""/>
+</g>
+<!-- balanceBefore.sub -->
+<g id="node76" class="node" pointer-events="visible" data-name="balanceBefore.sub">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1497" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1492.8" font-family="Times,serif" font-size="14.00" style="">sub</text>
+</g>
+<!-- ZkSync.transferERC20&#45;&gt;balanceBefore.sub -->
+<g id="edge20" class="edge" data-name="ZkSync.transferERC20-&gt;balanceBefore.sub">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1374.13,-1628.85C1389.18,-1624.84 1404.41,-1618.62 1416.6,-1609 1439.1,-1591.25 1424.82,-1570.45 1446.74,-1552 1484.94,-1519.85 1542.39,-1506.36 1579.42,-1500.8" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1580.32,-1504.2 1589.75,-1499.37 1579.37,-1497.27 1580.32,-1504.2" style=""/>
+</g>
+<!-- ZkSync.cancelOutstandingDepositsForExodusMode -->
+<g id="node14" class="node" pointer-events="visible" data-name="ZkSync.cancelOutstandingDepositsForExodusMode">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-1824" rx="181.73" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-1819.8" font-family="Times,serif" font-size="14.00" style="">cancelOutstandingDepositsForExodusMode</text>
+</g>
+<!-- ZkSync.cancelOutstandingDepositsForExodusMode&#45;&gt;ZkSync.delegateAdditional -->
+<g id="edge21" class="edge" data-name="ZkSync.cancelOutstandingDepositsForExodusMode-&gt;ZkSync.delegateAdditional">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M350.33,-1833.8C360.71,-1838.26 370.5,-1843.91 379.23,-1851 414.94,-1879.98 382.62,-1915.58 415.23,-1948 421.19,-1953.92 428.33,-1958.76 435.92,-1962.7" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="434.47,-1965.88 445.01,-1966.94 437.43,-1959.54 434.47,-1965.88" style=""/>
+</g>
+<!-- ZkSync.depositETH -->
+<g id="node15" class="node" pointer-events="visible" data-name="ZkSync.depositETH">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="504.06" cy="-1906" rx="57.91" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1901.8" font-family="Times,serif" font-size="14.00" style="">depositETH</text>
+</g>
+<!-- ZkSync.registerDeposit -->
+<g id="node37" class="node" pointer-events="visible" data-name="ZkSync.registerDeposit">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-1730" rx="70.07" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-1725.8" font-family="Times,serif" font-size="14.00" style="">registerDeposit</text>
+</g>
+<!-- ZkSync.depositETH&#45;&gt;ZkSync.registerDeposit -->
+<g id="edge23" class="edge" data-name="ZkSync.depositETH-&gt;ZkSync.registerDeposit">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M557.63,-1898.98C570.59,-1894.98 583.44,-1888.73 592.88,-1879 625.62,-1845.26 588.95,-1811.5 620.88,-1777 636.93,-1759.66 659.84,-1748.71 682.01,-1741.8" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="683.13,-1745.11 691.77,-1738.98 681.2,-1738.39 683.13,-1745.11" style=""/>
+</g>
+<!-- ZkSync.requireActive -->
+<g id="node58" class="node" pointer-events="visible" data-name="ZkSync.requireActive">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-1804" rx="64.24" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-1799.8" font-family="Times,serif" font-size="14.00" style="">requireActive</text>
+</g>
+<!-- ZkSync.depositETH&#45;&gt;ZkSync.requireActive -->
+<g id="edge22" class="edge" data-name="ZkSync.depositETH-&gt;ZkSync.requireActive">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M555.13,-1897.51C568.38,-1893.5 582.01,-1887.62 592.88,-1879 612.24,-1863.65 600.83,-1845.42 620.88,-1831 637.62,-1818.97 658.5,-1812.04 678.63,-1808.12" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="679.48,-1811.53 688.75,-1806.38 678.3,-1804.63 679.48,-1811.53" style=""/>
+</g>
+<!-- SafeCast.toUint128 -->
+<g id="node77" class="node" pointer-events="visible" data-name="SafeCast.toUint128">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-1497" rx="50.4" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-1492.8" font-family="Times,serif" font-size="14.00" style="">toUint128</text>
+</g>
+<!-- ZkSync.depositETH&#45;&gt;SafeCast.toUint128 -->
+<g id="edge24" class="edge" data-name="ZkSync.depositETH-&gt;SafeCast.toUint128">
+
+<path fill="none" stroke="white" stroke-width="2" d="M558.87,-1900.08C571.83,-1896.07 584.37,-1889.55 592.88,-1879 638.69,-1822.24 577.98,-1610.98 620.88,-1552 638.55,-1527.71 669.06,-1514.08 696.16,-1506.47" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="697.15,-1509.83 705.96,-1503.93 695.4,-1503.05 697.15,-1509.83" style=""/>
+</g>
+<!-- ZkSync.depositERC20 -->
+<g id="node16" class="node" pointer-events="visible" data-name="ZkSync.depositERC20">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="504.06" cy="-1852" rx="67.24" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1847.8" font-family="Times,serif" font-size="14.00" style="">depositERC20</text>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;ZkSync.registerDeposit -->
+<g id="edge33" class="edge" data-name="ZkSync.depositERC20-&gt;ZkSync.registerDeposit">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M560.17,-1841.9C571.79,-1837.97 583.39,-1832.53 592.88,-1825 612.24,-1809.65 601.9,-1792.8 620.88,-1777 639.61,-1761.42 663.91,-1750.82 686.47,-1743.69" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="687.76,-1746.95 696.34,-1740.75 685.76,-1740.25 687.76,-1746.95" style=""/>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;ZkSync.requireActive -->
+<g id="edge25" class="edge" data-name="ZkSync.depositERC20-&gt;ZkSync.requireActive">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M558.85,-1841.53C597.24,-1834.05 648.99,-1823.97 689.19,-1816.14" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="690,-1819.55 699.15,-1814.21 688.66,-1812.68 690,-1819.55" style=""/>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;IERC20.balanceOf -->
+<g id="edge28" class="edge" data-name="ZkSync.depositERC20-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M552.5,-1839.42C567.64,-1835.16 583.01,-1828.33 592.88,-1816 642.77,-1753.72 567.4,-1517.22 620.88,-1458 873.25,-1178.6 1401.73,-1243.31 1565.83,-1276.81" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1565.6,-1280.33 1576.11,-1278.96 1567.04,-1273.48 1565.6,-1280.33" style=""/>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;IERC20.balanceOf -->
+<g id="edge30" class="edge" data-name="ZkSync.depositERC20-&gt;IERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M571.46,-1850.19C579.69,-1846.37 587.2,-1841.1 592.88,-1834 642.77,-1771.72 567.4,-1535.22 620.88,-1476 869.3,-1200.96 1385.29,-1259.37 1557.88,-1283.09" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1557.63,-1286.59 1568.02,-1284.5 1558.59,-1279.66 1557.63,-1286.59" style=""/>
+</g>
+<!-- IERC20.transferFrom -->
+<g id="node75" class="node" pointer-events="visible" data-name="IERC20.transferFrom">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1236" rx="61.41" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1231.8" font-family="Times,serif" font-size="14.00" style="">transferFrom</text>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;IERC20.transferFrom -->
+<g id="edge29" class="edge" data-name="ZkSync.depositERC20-&gt;IERC20.transferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M565,-1844.24C575.78,-1840.15 585.82,-1834.05 592.88,-1825 664.65,-1733.09 543.23,-1387.99 620.88,-1301 868.65,-1023.45 1401.8,-1166.25 1566.22,-1219.11" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1565.46,-1222.54 1576.05,-1222.31 1567.63,-1215.89 1565.46,-1222.54" style=""/>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;SafeCast.toUint128 -->
+<g id="edge31" class="edge" data-name="ZkSync.depositERC20-&gt;SafeCast.toUint128">
+
+<path fill="none" stroke="white" stroke-width="2" d="M564.66,-1843.96C575.46,-1839.9 585.6,-1833.88 592.88,-1825 670.28,-1730.73 548.31,-1650.03 620.88,-1552 638.75,-1527.86 669.27,-1514.24 696.32,-1506.59" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="697.31,-1509.95 706.1,-1504.04 695.54,-1503.18 697.31,-1509.95" style=""/>
+</g>
+<!-- governance.validateTokenAddress -->
+<g id="node78" class="node" pointer-events="visible" data-name="governance.validateTokenAddress">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1013" rx="97.84" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1008.8" font-family="Times,serif" font-size="14.00" style="">validateTokenAddress</text>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;governance.validateTokenAddress -->
+<g id="edge26" class="edge" data-name="ZkSync.depositERC20-&gt;governance.validateTokenAddress">
+
+<path fill="none" stroke="white" stroke-width="2" d="M565.08,-1844.3C575.85,-1840.21 585.87,-1834.09 592.88,-1825 638.6,-1765.74 570.6,-1207.43 620.88,-1152 737.76,-1023.16 1276.69,-1010.72 1508.75,-1011.5" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1508.88,-1015 1518.9,-1011.54 1508.91,-1008 1508.88,-1015" style=""/>
+</g>
+<!-- governance.pausedTokens -->
+<g id="node79" class="node" pointer-events="visible" data-name="governance.pausedTokens">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-905" rx="66.06" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-900.8" font-family="Times,serif" font-size="14.00" style="">pausedTokens</text>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;governance.pausedTokens -->
+<g id="edge27" class="edge" data-name="ZkSync.depositERC20-&gt;governance.pausedTokens">
+
+<path fill="none" stroke="white" stroke-width="2" d="M565.19,-1844.39C575.96,-1840.29 585.94,-1834.15 592.88,-1825 629.5,-1776.74 577.5,-777.28 620.88,-735 747.66,-611.44 1280.9,-659.32 1416.6,-773 1452.18,-802.81 1412.24,-841.95 1446.74,-873 1472.05,-895.77 1508.34,-904.6 1540.8,-907.39" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1540.96,-910.91 1551.18,-908.09 1541.44,-903.92 1540.96,-910.91" style=""/>
+</g>
+<!-- balanceAfter.sub -->
+<g id="node83" class="node" pointer-events="visible" data-name="balanceAfter.sub">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-795" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-790.8" font-family="Times,serif" font-size="14.00" style="">sub</text>
+</g>
+<!-- ZkSync.depositERC20&#45;&gt;balanceAfter.sub -->
+<g id="edge32" class="edge" data-name="ZkSync.depositERC20-&gt;balanceAfter.sub">
+
+<path fill="none" stroke="white" stroke-width="2" d="M565.17,-1844.37C575.94,-1840.27 585.93,-1834.14 592.88,-1825 658.53,-1738.76 559.64,-939.41 620.88,-850 642.25,-818.8 685.03,-805.24 715.83,-799.38" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="716.5,-802.82 725.77,-797.68 715.32,-795.92 716.5,-802.82" style=""/>
+</g>
+<!-- ZkSync.getPendingBalance -->
+<g id="node17" class="node" pointer-events="visible" data-name="ZkSync.getPendingBalance">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="1310.64" cy="-1690" rx="85.67" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1685.8" font-family="Times,serif" font-size="14.00" style="">getPendingBalance</text>
+</g>
+<!-- ZkSync.packAddressAndTokenId -->
+<g id="node59" class="node" pointer-events="visible" data-name="ZkSync.packAddressAndTokenId">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1862" rx="110.02" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1857.8" font-family="Times,serif" font-size="14.00" style="">packAddressAndTokenId</text>
+</g>
+<!-- ZkSync.getPendingBalance&#45;&gt;ZkSync.packAddressAndTokenId -->
+<g id="edge35" class="edge" data-name="ZkSync.getPendingBalance-&gt;ZkSync.packAddressAndTokenId">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1382.47,-1699.84C1394.67,-1703.79 1406.61,-1709.3 1416.6,-1717 1438.37,-1733.78 1427.17,-1751.71 1446.74,-1771 1478.96,-1802.74 1524.51,-1826.42 1560.18,-1841.66" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1558.91,-1844.92 1569.49,-1845.54 1561.6,-1838.46 1558.91,-1844.92" style=""/>
+</g>
+<!-- ZkSync.getPendingBalance&#45;&gt;governance.validateTokenAddress -->
+<g id="edge34" class="edge" data-name="ZkSync.getPendingBalance-&gt;governance.validateTokenAddress">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1388.68,-1682.46C1399.43,-1678.19 1409.29,-1671.97 1416.6,-1663 1460.37,-1609.27 1400.52,-1091.63 1446.74,-1040 1464.13,-1020.58 1489.46,-1011.31 1515.23,-1007.51" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1515.99,-1010.94 1525.5,-1006.27 1515.15,-1003.99 1515.99,-1010.94" style=""/>
+</g>
+<!-- ZkSync.withdrawPendingBalance -->
+<g id="node18" class="node" pointer-events="visible" data-name="ZkSync.withdrawPendingBalance">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1040.72" cy="-1710" rx="110.02" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-1705.8" font-family="Times,serif" font-size="14.00" style="">withdrawPendingBalance</text>
+</g>
+<!-- ZkSync.withdrawPendingBalance&#45;&gt;ZkSync.transferERC20 -->
+<g id="edge39" class="edge" data-name="ZkSync.withdrawPendingBalance-&gt;ZkSync.transferERC20">
+
+<path fill="none" stroke="#80e097" stroke-width="2" d="M1094.82,-1694.26C1126.63,-1684.94 1167.9,-1673.03 1204.69,-1663 1219.58,-1658.94 1235.7,-1654.71 1250.74,-1650.83" style=""/>
+<polygon fill="#80e097" stroke="#80e097" stroke-width="2" points="1251.63,-1654.22 1260.44,-1648.34 1249.89,-1647.44 1251.63,-1654.22" style=""/>
+</g>
+<!-- ZkSync.withdrawPendingBalance&#45;&gt;ZkSync.packAddressAndTokenId -->
+<g id="edge37" class="edge" data-name="ZkSync.withdrawPendingBalance-&gt;ZkSync.packAddressAndTokenId">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1127.36,-1721.27C1141.83,-1725.08 1156.32,-1730.18 1169.23,-1737 1188.53,-1747.21 1184.84,-1761.91 1204.69,-1771 1290.71,-1810.37 1324.25,-1770.5 1416.6,-1791 1469.68,-1802.78 1528,-1824.74 1567.69,-1841.12" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1566.54,-1844.44 1577.11,-1845.06 1569.23,-1837.97 1566.54,-1844.44" style=""/>
+</g>
+<!-- ZkSync.IERC20 -->
+<g id="node60" class="node" pointer-events="visible" data-name="ZkSync.IERC20">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-1872" rx="42.88" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1867.8" font-family="Times,serif" font-size="14.00" style="">IERC20</text>
+</g>
+<!-- ZkSync.withdrawPendingBalance&#45;&gt;ZkSync.IERC20 -->
+<g id="edge40" class="edge" data-name="ZkSync.withdrawPendingBalance-&gt;ZkSync.IERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1137.61,-1718.66C1149.2,-1722.92 1160.13,-1728.84 1169.23,-1737 1206.84,-1770.73 1167.82,-1810.46 1204.69,-1845 1219.07,-1858.46 1239.23,-1865.43 1258.05,-1868.96" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1257.6,-1872.44 1268.03,-1870.55 1258.71,-1865.52 1257.6,-1872.44" style=""/>
+</g>
+<!-- ZkSync.Withdrawal -->
+<g id="node61" class="node" pointer-events="visible" data-name="ZkSync.Withdrawal">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-1818" rx="56.74" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1813.8" font-family="Times,serif" font-size="14.00" style="">Withdrawal</text>
+</g>
+<!-- ZkSync.withdrawPendingBalance&#45;&gt;ZkSync.Withdrawal -->
+<g id="edge41" class="edge" data-name="ZkSync.withdrawPendingBalance-&gt;ZkSync.Withdrawal">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1131.48,-1720.23C1144.79,-1724.19 1157.84,-1729.6 1169.23,-1737 1191.76,-1751.65 1182.81,-1770.38 1204.69,-1786 1218.11,-1795.58 1234.44,-1802.34 1250.2,-1807.09" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1249.33,-1810.48 1259.9,-1809.8 1251.21,-1803.74 1249.33,-1810.48" style=""/>
+</g>
+<!-- ZkSync.withdrawPendingBalance&#45;&gt;governance.validateTokenAddress -->
+<g id="edge36" class="edge" data-name="ZkSync.withdrawPendingBalance-&gt;governance.validateTokenAddress">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1118.6,-1697.16C1138,-1690.21 1156.82,-1679.5 1169.23,-1663 1235.11,-1575.39 1145.23,-1263.09 1204.69,-1171 1271.04,-1068.24 1330.92,-1079.33 1446.74,-1040 1469.49,-1032.28 1494.72,-1026.74 1518.59,-1022.78" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1519.4,-1026.19 1528.73,-1021.17 1518.31,-1019.28 1519.4,-1026.19" style=""/>
+</g>
+<!-- Utils.minU128 -->
+<g id="node84" class="node" pointer-events="visible" data-name="Utils.minU128">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-1389" rx="47.54" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-1384.8" font-family="Times,serif" font-size="14.00" style="">minU128</text>
+</g>
+<!-- ZkSync.withdrawPendingBalance&#45;&gt;Utils.minU128 -->
+<g id="edge38" class="edge" data-name="ZkSync.withdrawPendingBalance-&gt;Utils.minU128">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1116.71,-1696.82C1136.45,-1689.87 1155.91,-1679.24 1169.23,-1663 1233.68,-1584.37 1157.54,-1527.08 1204.69,-1437 1273.65,-1305.25 1308.7,-1261.3 1446.74,-1206 1516.79,-1177.94 1729.23,-1156.63 1786.3,-1206 1839.28,-1251.84 1760.28,-1311.63 1808.98,-1362 1833.04,-1386.89 1871.68,-1393.39 1903.72,-1393.8" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1903.88,-1397.29 1913.86,-1393.73 1903.84,-1390.29 1903.88,-1397.29" style=""/>
+</g>
+<!-- ZkSync.withdrawPendingNFTBalance -->
+<g id="node19" class="node" pointer-events="visible" data-name="ZkSync.withdrawPendingNFTBalance">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="1040.72" cy="-1582" rx="128.51" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-1577.8" font-family="Times,serif" font-size="14.00" style="">withdrawPendingNFTBalance</text>
+</g>
+<!-- ZkSync.WithdrawalNFT -->
+<g id="node62" class="node" pointer-events="visible" data-name="ZkSync.WithdrawalNFT">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-1582" rx="74.73" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1577.8" font-family="Times,serif" font-size="14.00" style="">WithdrawalNFT</text>
+</g>
+<!-- ZkSync.withdrawPendingNFTBalance&#45;&gt;ZkSync.WithdrawalNFT -->
+<g id="edge44" class="edge" data-name="ZkSync.withdrawPendingNFTBalance-&gt;ZkSync.WithdrawalNFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1169.41,-1582C1188.33,-1582 1207.43,-1582 1225.18,-1582" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1225.46,-1585.5 1235.46,-1582 1225.46,-1578.5 1225.46,-1585.5" style=""/>
+</g>
+<!-- governance.getNFTFactory -->
+<g id="node80" class="node" pointer-events="visible" data-name="governance.getNFTFactory">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1067" rx="70.65" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1062.8" font-family="Times,serif" font-size="14.00" style="">getNFTFactory</text>
+</g>
+<!-- ZkSync.withdrawPendingNFTBalance&#45;&gt;governance.getNFTFactory -->
+<g id="edge42" class="edge" data-name="ZkSync.withdrawPendingNFTBalance-&gt;governance.getNFTFactory">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1042.18,-1563.83C1044.98,-1495.05 1064.76,-1248.77 1204.69,-1133 1300.49,-1053.74 1453.18,-1051.23 1542.95,-1058.09" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1542.79,-1061.58 1553.05,-1058.92 1543.37,-1054.61 1542.79,-1061.58" style=""/>
+</g>
+<!-- NFTFactory.mintNFTFromZkSync -->
+<g id="node88" class="node" pointer-events="visible" data-name="NFTFactory.mintNFTFromZkSync">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-1497" rx="97.91" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1492.8" font-family="Times,serif" font-size="14.00" style="">mintNFTFromZkSync</text>
+</g>
+<!-- ZkSync.withdrawPendingNFTBalance&#45;&gt;NFTFactory.mintNFTFromZkSync -->
+<g id="edge43" class="edge" data-name="ZkSync.withdrawPendingNFTBalance-&gt;NFTFactory.mintNFTFromZkSync">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1093.7,-1565.51C1138.73,-1551.22 1203.86,-1530.56 1250.8,-1515.67" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1252.05,-1518.94 1260.52,-1512.58 1249.93,-1512.27 1252.05,-1518.94" style=""/>
+</g>
+<!-- ZkSync.requestFullExit -->
+<g id="node20" class="node" pointer-events="visible" data-name="ZkSync.requestFullExit">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="504.06" cy="-1798" rx="70.66" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1793.8" font-family="Times,serif" font-size="14.00" style="">requestFullExit</text>
+</g>
+<!-- ZkSync.addPriorityRequest -->
+<g id="node46" class="node" pointer-events="visible" data-name="ZkSync.addPriorityRequest">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1040.72" cy="-1838" rx="85.7" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-1833.8" font-family="Times,serif" font-size="14.00" style="">addPriorityRequest</text>
+</g>
+<!-- ZkSync.requestFullExit&#45;&gt;ZkSync.addPriorityRequest -->
+<g id="edge49" class="edge" data-name="ZkSync.requestFullExit-&gt;ZkSync.addPriorityRequest">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M563.25,-1788.03C574.03,-1784.1 584.51,-1778.63 592.88,-1771 617.04,-1748.98 593.73,-1721.19 620.88,-1703 645.2,-1686.72 860.97,-1685.23 884.22,-1703 921.91,-1731.81 878.35,-1772.78 912.22,-1806 922.88,-1816.45 936.41,-1823.65 950.66,-1828.58" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="950.02,-1832.04 960.61,-1831.64 952.08,-1825.35 950.02,-1832.04" style=""/>
+</g>
+<!-- ZkSync.requestFullExit&#45;&gt;ZkSync.requireActive -->
+<g id="edge45" class="edge" data-name="ZkSync.requestFullExit-&gt;ZkSync.requireActive">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M574.38,-1799.69C606.9,-1800.48 645.66,-1801.42 678.62,-1802.22" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="678.57,-1805.72 688.65,-1802.47 678.74,-1798.73 678.57,-1805.72" style=""/>
+</g>
+<!-- ZkSync.requestFullExit&#45;&gt;ZkSync.packAddressAndTokenId -->
+<g id="edge50" class="edge" data-name="ZkSync.requestFullExit-&gt;ZkSync.packAddressAndTokenId">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M558.75,-1786.45C651.39,-1767.9 835.96,-1737.33 884.22,-1777 933.91,-1817.85 876.56,-1865.46 912.22,-1919 998.95,-2049.24 1054.98,-2069.48 1204.69,-2115 1249.74,-2128.7 1380.38,-2145.1 1416.6,-2115 1472.92,-2068.19 1403.59,-2012.17 1446.74,-1953 1472.13,-1918.19 1514.99,-1895.32 1551.17,-1881.21" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1552.56,-1884.43 1560.69,-1877.63 1550.1,-1877.87 1552.56,-1884.43" style=""/>
+</g>
+<!-- ZkSync.requestFullExit&#45;&gt;governance.validateTokenAddress -->
+<g id="edge46" class="edge" data-name="ZkSync.requestFullExit-&gt;governance.validateTokenAddress">
+
+<path fill="none" stroke="white" stroke-width="2" d="M566.96,-1789.67C577.04,-1785.59 586.32,-1779.63 592.88,-1771 626.73,-1726.5 580.8,-803.98 620.88,-765 683.59,-704.02 1353.21,-789.31 1416.6,-849 1461.99,-891.74 1401.4,-943.21 1446.74,-986 1464.12,-1002.39 1487.25,-1011.15 1510.81,-1015.45" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1510.5,-1018.94 1520.92,-1017.02 1511.58,-1012.02 1510.5,-1018.94" style=""/>
+</g>
+<!-- Operations.FullExit -->
+<g id="node89" class="node" pointer-events="visible" data-name="Operations.FullExit">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-412" rx="42.89" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-407.8" font-family="Times,serif" font-size="14.00" style="">FullExit</text>
+</g>
+<!-- ZkSync.requestFullExit&#45;&gt;Operations.FullExit -->
+<g id="edge47" class="edge" data-name="ZkSync.requestFullExit-&gt;Operations.FullExit">
+
+<path fill="none" stroke="white" stroke-width="2" d="M566.97,-1789.68C577.05,-1785.59 586.32,-1779.64 592.88,-1771 662.29,-1679.67 550.25,-829.38 620.88,-739 703.64,-633.11 780.05,-682.33 912.22,-658 1022.93,-637.62 1333.86,-687.33 1416.6,-611 1473.64,-558.38 1391.46,-493.47 1446.74,-439 1477.47,-408.73 1527.7,-404.13 1565.39,-405.81" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1565.47,-409.32 1575.67,-406.43 1565.9,-402.33 1565.47,-409.32" style=""/>
+</g>
+<!-- Operations.writeFullExitPubdataForPriorityQueue -->
+<g id="node90" class="node" pointer-events="visible" data-name="Operations.writeFullExitPubdataForPriorityQueue">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-358" rx="161.55" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-353.8" font-family="Times,serif" font-size="14.00" style="">writeFullExitPubdataForPriorityQueue</text>
+</g>
+<!-- ZkSync.requestFullExit&#45;&gt;Operations.writeFullExitPubdataForPriorityQueue -->
+<g id="edge48" class="edge" data-name="ZkSync.requestFullExit-&gt;Operations.writeFullExitPubdataForPriorityQueue">
+
+<path fill="none" stroke="white" stroke-width="2" d="M566.98,-1789.69C577.06,-1785.6 586.33,-1779.64 592.88,-1771 667.64,-1672.43 541.65,-753 620.88,-658 736.58,-519.28 1284.54,-615.25 1416.6,-492 1452.72,-458.29 1409.84,-417.85 1446.74,-385 1452.74,-379.66 1459.36,-375.15 1466.4,-371.34" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1468.07,-374.43 1475.53,-366.9 1465,-368.13 1468.07,-374.43" style=""/>
+</g>
+<!-- ZkSync.requestFullExitNFT -->
+<g id="node21" class="node" pointer-events="visible" data-name="ZkSync.requestFullExitNFT">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="504.06" cy="-1744" rx="88.65" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1739.8" font-family="Times,serif" font-size="14.00" style="">requestFullExitNFT</text>
+</g>
+<!-- ZkSync.requestFullExitNFT&#45;&gt;ZkSync.addPriorityRequest -->
+<g id="edge54" class="edge" data-name="ZkSync.requestFullExitNFT-&gt;ZkSync.addPriorityRequest">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M564.17,-1730.64C574.17,-1727.05 584.14,-1722.57 592.88,-1717 608.54,-1707.02 603.92,-1693.54 620.88,-1686 674.36,-1662.24 838.38,-1649.63 884.22,-1686 927.12,-1720.04 873.82,-1766.95 912.22,-1806 922.62,-1816.58 935.96,-1823.85 950.07,-1828.8" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="949.35,-1832.25 959.94,-1831.88 951.44,-1825.56 949.35,-1832.25" style=""/>
+</g>
+<!-- ZkSync.requestFullExitNFT&#45;&gt;ZkSync.requireActive -->
+<g id="edge51" class="edge" data-name="ZkSync.requestFullExitNFT-&gt;ZkSync.requireActive">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M561.61,-1757.77C601.18,-1767.4 653.88,-1780.22 693.73,-1789.92" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="693.02,-1793.36 703.57,-1792.32 694.68,-1786.55 693.02,-1793.36" style=""/>
+</g>
+<!-- ZkSync.requestFullExitNFT&#45;&gt;Operations.FullExit -->
+<g id="edge52" class="edge" data-name="ZkSync.requestFullExitNFT-&gt;Operations.FullExit">
+
+<path fill="none" stroke="white" stroke-width="2" d="M573.52,-1732.7C581.02,-1728.84 587.78,-1723.74 592.88,-1717 630.95,-1666.78 577.12,-628.35 620.88,-583 743.9,-455.53 1277.02,-644.08 1416.6,-535 1451.83,-507.46 1412.9,-468.24 1446.74,-439 1478.97,-411.16 1528.1,-406.05 1565.06,-406.93" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1565.01,-410.43 1575.14,-407.33 1565.28,-403.44 1565.01,-410.43" style=""/>
+</g>
+<!-- ZkSync.requestFullExitNFT&#45;&gt;Operations.writeFullExitPubdataForPriorityQueue -->
+<g id="edge53" class="edge" data-name="ZkSync.requestFullExitNFT-&gt;Operations.writeFullExitPubdataForPriorityQueue">
+
+<path fill="none" stroke="white" stroke-width="2" d="M573.52,-1732.71C581.03,-1728.85 587.78,-1723.74 592.88,-1717 632.54,-1664.63 576.13,-583.08 620.88,-535 741.92,-404.99 1274.08,-565.02 1416.6,-459 1445.09,-437.8 1418.94,-407.09 1446.74,-385 1453.42,-379.69 1460.73,-375.24 1468.44,-371.51" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1469.92,-374.69 1477.67,-367.46 1467.1,-368.28 1469.92,-374.69" style=""/>
+</g>
+<!-- ZkSync.commitOneBlock -->
+<g id="node22" class="node" pointer-events="visible" data-name="ZkSync.commitOneBlock">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="752.55" cy="-1858" rx="79.89" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-1853.8" font-family="Times,serif" font-size="14.00" style="">commitOneBlock</text>
+</g>
+<!-- ZkSync.collectOnchainOps -->
+<g id="node38" class="node" pointer-events="visible" data-name="ZkSync.collectOnchainOps">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1040.72" cy="-2202" rx="85.1" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-2197.8" font-family="Times,serif" font-size="14.00" style="">collectOnchainOps</text>
+</g>
+<!-- ZkSync.commitOneBlock&#45;&gt;ZkSync.collectOnchainOps -->
+<g id="edge55" class="edge" data-name="ZkSync.commitOneBlock-&gt;ZkSync.collectOnchainOps">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M832.08,-1859.27C851.36,-1863.28 870.4,-1870.97 884.22,-1885 930.88,-1932.39 885.35,-1971.16 912.22,-2032 937.64,-2089.56 985.78,-2145.87 1015.08,-2177.06" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1012.67,-2179.6 1022.1,-2184.43 1017.74,-2174.78 1012.67,-2179.6" style=""/>
+</g>
+<!-- ZkSync.createBlockCommitment -->
+<g id="node44" class="node" pointer-events="visible" data-name="ZkSync.createBlockCommitment">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1040.72" cy="-2256" rx="108.23" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-2251.8" font-family="Times,serif" font-size="14.00" style="">createBlockCommitment</text>
+</g>
+<!-- ZkSync.commitOneBlock&#45;&gt;ZkSync.createBlockCommitment -->
+<g id="edge56" class="edge" data-name="ZkSync.commitOneBlock-&gt;ZkSync.createBlockCommitment">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M832.43,-1858.16C851.94,-1862.13 871.02,-1870.08 884.22,-1885 935.03,-1942.45 861.55,-2171.42 912.22,-2229 917.74,-2235.27 924.31,-2240.29 931.53,-2244.3" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="930.45,-2247.67 940.98,-2248.85 933.49,-2241.36 930.45,-2247.67" style=""/>
+</g>
+<!-- ZkSync.commitOneBlock&#45;&gt;ZkSync.StoredBlockInfo -->
+<g id="edge57" class="edge" data-name="ZkSync.commitOneBlock-&gt;ZkSync.StoredBlockInfo">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M832.54,-1858.07C852.05,-1862.04 871.1,-1870.01 884.22,-1885 942.59,-1951.74 854.01,-2216.12 912.22,-2283 923.39,-2295.84 939.01,-2303.47 955.5,-2307.83" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="954.75,-2311.25 965.28,-2310.04 956.29,-2304.42 954.75,-2311.25" style=""/>
+</g>
+<!-- ZkSync.commitBlocks -->
+<g id="node23" class="node" pointer-events="visible" data-name="ZkSync.commitBlocks">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="504.06" cy="-2034" rx="67.23" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-2029.8" font-family="Times,serif" font-size="14.00" style="">commitBlocks</text>
+</g>
+<!-- ZkSync.commitBlocks&#45;&gt;ZkSync.commitOneBlock -->
+<g id="edge61" class="edge" data-name="ZkSync.commitBlocks-&gt;ZkSync.commitOneBlock">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M563.38,-2025.41C574.41,-2021.39 584.96,-2015.53 592.88,-2007 630.77,-1966.26 581.12,-1923.91 620.88,-1885 632.47,-1873.66 647.49,-1866.51 663.19,-1862.09" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="664.15,-1865.46 673.03,-1859.69 662.49,-1858.66 664.15,-1865.46" style=""/>
+</g>
+<!-- ZkSync.commitBlocks&#45;&gt;ZkSync.hashStoredBlockInfo -->
+<g id="edge60" class="edge" data-name="ZkSync.commitBlocks-&gt;ZkSync.hashStoredBlockInfo">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M535.57,-2018.04C552.66,-2012.13 574.23,-2005.47 592.88,-1998 605.8,-1992.83 607.74,-1988.56 620.88,-1984 631.55,-1980.3 642.89,-1977.04 654.26,-1974.23" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="655.31,-1977.58 664.24,-1971.88 653.71,-1970.76 655.31,-1977.58" style=""/>
+</g>
+<!-- ZkSync.commitBlocks&#45;&gt;ZkSync.hashStoredBlockInfo -->
+<g id="edge62" class="edge" data-name="ZkSync.commitBlocks-&gt;ZkSync.hashStoredBlockInfo">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M564.58,-2026.04C574.14,-2023.04 583.85,-2019.62 592.88,-2016 605.8,-2010.83 607.74,-2006.56 620.88,-2002 643.67,-1994.1 669.53,-1988.16 692.19,-1983.29" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="692.98,-1986.7 702.03,-1981.19 691.52,-1979.86 692.98,-1986.7" style=""/>
+</g>
+<!-- ZkSync.commitBlocks&#45;&gt;ZkSync.requireActive -->
+<g id="edge58" class="edge" data-name="ZkSync.commitBlocks-&gt;ZkSync.requireActive">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M564.28,-2025.64C575.11,-2021.6 585.35,-2015.67 592.88,-2007 644.82,-1947.2 566.18,-1888.28 620.88,-1831 635.8,-1815.38 657.18,-1807.56 678.34,-1803.92" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="678.95,-1807.37 688.35,-1802.5 677.96,-1800.44 678.95,-1807.37" style=""/>
+</g>
+<!-- ZkSync.BlockCommit -->
+<g id="node63" class="node" pointer-events="visible" data-name="ZkSync.BlockCommit">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-1912" rx="65.53" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-1907.8" font-family="Times,serif" font-size="14.00" style="">BlockCommit</text>
+</g>
+<!-- ZkSync.commitBlocks&#45;&gt;ZkSync.BlockCommit -->
+<g id="edge63" class="edge" data-name="ZkSync.commitBlocks-&gt;ZkSync.BlockCommit">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M561.88,-2024.52C573.14,-2020.56 584.16,-2014.95 592.88,-2007 617.04,-1984.98 595.72,-1959.85 620.88,-1939 636.52,-1926.04 656.78,-1918.79 676.65,-1914.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="677.41,-1918.28 686.67,-1913.14 676.22,-1911.38 677.41,-1918.28" style=""/>
+</g>
+<!-- governance.requireActiveValidator -->
+<g id="node81" class="node" pointer-events="visible" data-name="governance.requireActiveValidator">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-959" rx="100.68" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-954.8" font-family="Times,serif" font-size="14.00" style="">requireActiveValidator</text>
+</g>
+<!-- ZkSync.commitBlocks&#45;&gt;governance.requireActiveValidator -->
+<g id="edge59" class="edge" data-name="ZkSync.commitBlocks-&gt;governance.requireActiveValidator">
+
+<path fill="none" stroke="white" stroke-width="2" d="M565.21,-2026.4C575.98,-2022.3 585.96,-2016.16 592.88,-2007 634.52,-1951.95 571.53,-813.25 620.88,-765 758.66,-630.3 1252.45,-887.81 1446.74,-932 1472.03,-937.75 1499.73,-942.72 1525.23,-946.78" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1524.85,-950.26 1535.27,-948.34 1525.93,-943.34 1524.85,-950.26" style=""/>
+</g>
+<!-- ZkSync.withdrawOrStoreNFT -->
+<g id="node24" class="node" pointer-events="visible" data-name="ZkSync.withdrawOrStoreNFT">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1040.72" cy="-1636" rx="96.15" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-1631.8" font-family="Times,serif" font-size="14.00" style="">withdrawOrStoreNFT</text>
+</g>
+<!-- ZkSync.storePendingNFT -->
+<g id="node26" class="node" pointer-events="visible" data-name="ZkSync.storePendingNFT">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-1744" rx="79.91" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1739.8" font-family="Times,serif" font-size="14.00" style="">storePendingNFT</text>
+</g>
+<!-- ZkSync.withdrawOrStoreNFT&#45;&gt;ZkSync.storePendingNFT -->
+<g id="edge66" class="edge" data-name="ZkSync.withdrawOrStoreNFT-&gt;ZkSync.storePendingNFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1119.55,-1646.42C1136.89,-1651.15 1154.48,-1658.02 1169.23,-1668 1191.49,-1683.07 1182.47,-1701.86 1204.69,-1717 1213.35,-1722.9 1223.21,-1727.51 1233.34,-1731.11" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1232.51,-1734.52 1243.1,-1734.27 1234.66,-1727.86 1232.51,-1734.52" style=""/>
+</g>
+<!-- ZkSync.withdrawOrStoreNFT&#45;&gt;ZkSync.WithdrawalNFT -->
+<g id="edge65" class="edge" data-name="ZkSync.withdrawOrStoreNFT-&gt;ZkSync.WithdrawalNFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1106.92,-1622.86C1148.13,-1614.55 1201.25,-1603.85 1242.78,-1595.48" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1243.69,-1598.86 1252.8,-1593.46 1242.31,-1592 1243.69,-1598.86" style=""/>
+</g>
+<!-- ZkSync.withdrawOrStoreNFT&#45;&gt;governance.getNFTFactory -->
+<g id="edge64" class="edge" data-name="ZkSync.withdrawOrStoreNFT-&gt;governance.getNFTFactory">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1133.81,-1631.35C1147.31,-1626.77 1159.81,-1619.7 1169.23,-1609 1233.72,-1535.68 1143.02,-1246.72 1204.69,-1171 1266.66,-1094.91 1325.22,-1144.77 1416.6,-1109 1430.53,-1103.54 1432.49,-1098.57 1446.74,-1094 1476.32,-1084.52 1509.92,-1078.28 1539.31,-1074.21" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1540.07,-1077.64 1549.52,-1072.86 1539.15,-1070.7 1540.07,-1077.64" style=""/>
+</g>
+<!-- ZkSync.withdrawOrStore -->
+<g id="node25" class="node" pointer-events="visible" data-name="ZkSync.withdrawOrStore">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="1040.72" cy="-1764" rx="78.17" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-1759.8" font-family="Times,serif" font-size="14.00" style="">withdrawOrStore</text>
+</g>
+<!-- ZkSync.increasePendingBalance -->
+<g id="node27" class="node" pointer-events="visible" data-name="ZkSync.increasePendingBalance">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-1980" rx="105.34" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1975.8" font-family="Times,serif" font-size="14.00" style="">increasePendingBalance</text>
+</g>
+<!-- ZkSync.withdrawOrStore&#45;&gt;ZkSync.increasePendingBalance -->
+<g id="edge71" class="edge" data-name="ZkSync.withdrawOrStore-&gt;ZkSync.increasePendingBalance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1116.26,-1768.69C1135.74,-1773.36 1155.19,-1781.63 1169.23,-1796 1219.21,-1847.18 1154.86,-1901.67 1204.69,-1953 1208.89,-1957.32 1213.68,-1960.99 1218.85,-1964.09" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1217.38,-1967.27 1227.87,-1968.8 1220.62,-1961.07 1217.38,-1967.27" style=""/>
+</g>
+<!-- ZkSync.sendETHNoRevert -->
+<g id="node48" class="node" pointer-events="visible" data-name="ZkSync.sendETHNoRevert">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-1926" rx="85.11" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-1921.8" font-family="Times,serif" font-size="14.00" style="">sendETHNoRevert</text>
+</g>
+<!-- ZkSync.withdrawOrStore&#45;&gt;ZkSync.sendETHNoRevert -->
+<g id="edge67" class="edge" data-name="ZkSync.withdrawOrStore-&gt;ZkSync.sendETHNoRevert">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1114.94,-1769.63C1134.51,-1774.3 1154.34,-1782.34 1169.23,-1796 1204.9,-1828.74 1169.12,-1866.16 1204.69,-1899 1211.17,-1904.98 1218.79,-1909.68 1226.92,-1913.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1225.7,-1916.64 1236.29,-1917.1 1228.3,-1910.14 1225.7,-1916.64" style=""/>
+</g>
+<!-- ZkSync.withdrawOrStore&#45;&gt;ZkSync.IERC20 -->
+<g id="edge69" class="edge" data-name="ZkSync.withdrawOrStore-&gt;ZkSync.IERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1110.58,-1772.16C1130.71,-1776.87 1151.93,-1784.29 1169.23,-1796 1191.49,-1811.07 1182.47,-1829.86 1204.69,-1845 1220.63,-1855.86 1240.63,-1862.35 1258.89,-1866.23" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1258.34,-1869.69 1268.82,-1868.13 1259.65,-1862.81 1258.34,-1869.69" style=""/>
+</g>
+<!-- ZkSync.withdrawOrStore&#45;&gt;ZkSync.Withdrawal -->
+<g id="edge70" class="edge" data-name="ZkSync.withdrawOrStore-&gt;ZkSync.Withdrawal">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1100.19,-1775.78C1145.42,-1784.9 1207.71,-1797.45 1252.58,-1806.5" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1251.96,-1809.94 1262.45,-1808.49 1253.34,-1803.08 1251.96,-1809.94" style=""/>
+</g>
+<!-- governance.tokenAddresses -->
+<g id="node82" class="node" pointer-events="visible" data-name="governance.tokenAddresses">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1121" rx="72.37" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1116.8" font-family="Times,serif" font-size="14.00" style="">tokenAddresses</text>
+</g>
+<!-- ZkSync.withdrawOrStore&#45;&gt;governance.tokenAddresses -->
+<g id="edge68" class="edge" data-name="ZkSync.withdrawOrStore-&gt;governance.tokenAddresses">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1118.83,-1763.15C1137.75,-1759.16 1156.28,-1751.37 1169.23,-1737 1219.78,-1680.89 1168.41,-1465.24 1204.69,-1399 1283.01,-1256.02 1470.14,-1172.49 1562.34,-1138.66" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1563.54,-1141.95 1571.76,-1135.26 1561.16,-1135.36 1563.54,-1141.95" style=""/>
+</g>
+<!-- ZkSync.WithdrawalNFTPending -->
+<g id="node64" class="node" pointer-events="visible" data-name="ZkSync.WithdrawalNFTPending">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1744" rx="106.53" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1739.8" font-family="Times,serif" font-size="14.00" style="">WithdrawalNFTPending</text>
+</g>
+<!-- ZkSync.storePendingNFT&#45;&gt;ZkSync.WithdrawalNFTPending -->
+<g id="edge72" class="edge" data-name="ZkSync.storePendingNFT-&gt;ZkSync.WithdrawalNFTPending">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1390.69,-1744C1423.96,-1744 1463.35,-1744 1499.79,-1744" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1499.98,-1747.5 1509.98,-1744 1499.98,-1740.5 1499.98,-1747.5" style=""/>
+</g>
+<!-- ZkSync.increaseBalanceToWithdraw -->
+<g id="node47" class="node" pointer-events="visible" data-name="ZkSync.increaseBalanceToWithdraw">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-1980" rx="123.21" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-1975.8" font-family="Times,serif" font-size="14.00" style="">increaseBalanceToWithdraw</text>
+</g>
+<!-- ZkSync.increasePendingBalance&#45;&gt;ZkSync.increaseBalanceToWithdraw -->
+<g id="edge74" class="edge" data-name="ZkSync.increasePendingBalance-&gt;ZkSync.increaseBalanceToWithdraw">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1416.22,-1980C1437.73,-1980 1460.65,-1980 1483,-1980" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1483.23,-1983.5 1493.23,-1980 1483.23,-1976.5 1483.23,-1983.5" style=""/>
+</g>
+<!-- ZkSync.increasePendingBalance&#45;&gt;ZkSync.packAddressAndTokenId -->
+<g id="edge73" class="edge" data-name="ZkSync.increasePendingBalance-&gt;ZkSync.packAddressAndTokenId">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1374.9,-1965.66C1388.78,-1961.98 1403.3,-1957.71 1416.6,-1953 1472.27,-1933.28 1533.72,-1903.93 1573.38,-1883.93" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1575.15,-1886.96 1582.48,-1879.31 1571.98,-1880.72 1575.15,-1886.96" style=""/>
+</g>
+<!-- ZkSync.WithdrawalPending -->
+<g id="node65" class="node" pointer-events="visible" data-name="ZkSync.WithdrawalPending">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-2034" rx="88.05" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-2029.8" font-family="Times,serif" font-size="14.00" style="">WithdrawalPending</text>
+</g>
+<!-- ZkSync.increasePendingBalance&#45;&gt;ZkSync.WithdrawalPending -->
+<g id="edge75" class="edge" data-name="ZkSync.increasePendingBalance-&gt;ZkSync.WithdrawalPending">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1378.2,-1993.83C1400.01,-1998.22 1424.38,-2002.98 1446.74,-2007 1475.49,-2012.17 1507.07,-2017.35 1535.07,-2021.78" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1534.79,-2025.28 1545.21,-2023.37 1535.87,-2018.36 1534.79,-2025.28" style=""/>
+</g>
+<!-- ZkSync.handleWithdrawFT -->
+<g id="node28" class="node" pointer-events="visible" data-name="ZkSync.handleWithdrawFT">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="752.55" cy="-1636" rx="86.82" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-1631.8" font-family="Times,serif" font-size="14.00" style="">handleWithdrawFT</text>
+</g>
+<!-- ZkSync.handleWithdrawFT&#45;&gt;ZkSync.withdrawOrStore -->
+<g id="edge76" class="edge" data-name="ZkSync.handleWithdrawFT-&gt;ZkSync.withdrawOrStore">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M832.85,-1642.99C851.34,-1647.79 869.82,-1655.55 884.22,-1668 909.26,-1689.64 886.84,-1715.76 912.22,-1737 924.17,-1747.01 938.93,-1753.58 954.11,-1757.85" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="953.58,-1761.33 964.13,-1760.34 955.26,-1754.53 953.58,-1761.33" style=""/>
+</g>
+<!-- ZkSync.handleWithdrawFT&#45;&gt;ZkSync.increasePendingBalance -->
+<g id="edge77" class="edge" data-name="ZkSync.handleWithdrawFT-&gt;ZkSync.increasePendingBalance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M839.52,-1636.47C856.08,-1640.34 872.04,-1647.24 884.22,-1659 927.35,-1700.66 867.12,-1751.47 912.22,-1791 955.3,-1828.76 1125.48,-1774.01 1169.23,-1811 1218.9,-1853 1158.86,-1906.84 1204.69,-1953 1208.94,-1957.28 1213.76,-1960.91 1218.96,-1963.98" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1217.52,-1967.18 1228.01,-1968.65 1220.73,-1960.96 1217.52,-1967.18" style=""/>
+</g>
+<!-- ZkSync.handleWithdrawNFT -->
+<g id="node29" class="node" pointer-events="visible" data-name="ZkSync.handleWithdrawNFT">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="752.55" cy="-1582" rx="93.77" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-1577.8" font-family="Times,serif" font-size="14.00" style="">handleWithdrawNFT</text>
+</g>
+<!-- ZkSync.handleWithdrawNFT&#45;&gt;ZkSync.withdrawOrStoreNFT -->
+<g id="edge78" class="edge" data-name="ZkSync.handleWithdrawNFT-&gt;ZkSync.withdrawOrStoreNFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M819.92,-1594.52C862.44,-1602.55 917.8,-1612.99 962.32,-1621.39" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="961.74,-1624.85 972.22,-1623.26 963.04,-1617.97 961.74,-1624.85" style=""/>
+</g>
+<!-- ZkSync.handleWithdrawNFT&#45;&gt;ZkSync.storePendingNFT -->
+<g id="edge79" class="edge" data-name="ZkSync.handleWithdrawNFT-&gt;ZkSync.storePendingNFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M839.78,-1588.55C855.66,-1592.76 871.29,-1599.21 884.22,-1609 905.77,-1625.32 889.68,-1648.07 912.22,-1663 959.98,-1694.64 1116.94,-1659.59 1169.23,-1683 1189.15,-1691.92 1185.61,-1706.38 1204.69,-1717 1214.54,-1722.49 1225.54,-1726.88 1236.59,-1730.4" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1235.72,-1733.79 1246.3,-1733.27 1237.71,-1727.08 1235.72,-1733.79" style=""/>
+</g>
+<!-- ZkSync.executeOneBlock -->
+<g id="node30" class="node" pointer-events="visible" data-name="ZkSync.executeOneBlock">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="504.06" cy="-1690" rx="79.85" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1685.8" font-family="Times,serif" font-size="14.00" style="">executeOneBlock</text>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;ZkSync.handleWithdrawFT -->
+<g id="edge83" class="edge" data-name="ZkSync.executeOneBlock-&gt;ZkSync.handleWithdrawFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M537.03,-1673.56C567.97,-1663.24 616.36,-1651.41 659.36,-1643.08" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="660.13,-1646.5 669.3,-1641.21 658.83,-1639.62 660.13,-1646.5" style=""/>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;ZkSync.handleWithdrawFT -->
+<g id="edge85" class="edge" data-name="ZkSync.executeOneBlock-&gt;ZkSync.handleWithdrawFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M561.92,-1677.54C597.68,-1669.71 644.07,-1659.55 682.02,-1651.23" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="682.95,-1654.61 691.97,-1649.05 681.45,-1647.77 682.95,-1654.61" style=""/>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;ZkSync.handleWithdrawFT -->
+<g id="edge87" class="edge" data-name="ZkSync.executeOneBlock-&gt;ZkSync.handleWithdrawFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M581.7,-1685.81C623.63,-1678.32 674.01,-1666.58 708.95,-1655.84" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="710.37,-1659.06 718.83,-1652.69 708.24,-1652.39 710.37,-1659.06" style=""/>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;ZkSync.handleWithdrawNFT -->
+<g id="edge89" class="edge" data-name="ZkSync.executeOneBlock-&gt;ZkSync.handleWithdrawNFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M549.51,-1675.06C564.56,-1670.57 580.64,-1664.22 592.88,-1654 613.64,-1636.68 599.33,-1616.32 620.88,-1600 629.44,-1593.52 639.18,-1588.51 649.39,-1584.69" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="650.51,-1588 658.88,-1581.51 648.28,-1581.36 650.51,-1588" style=""/>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;ZkSync.handleWithdrawNFT -->
+<g id="edge91" class="edge" data-name="ZkSync.executeOneBlock-&gt;ZkSync.handleWithdrawNFT">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M576.66,-1682.47C582.47,-1679.56 587.99,-1676.09 592.88,-1672 613.64,-1654.68 599.33,-1634.32 620.88,-1618 635.38,-1607.03 653.26,-1600.24 671.1,-1595.85" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="671.98,-1599.24 680.98,-1593.65 670.45,-1592.41 671.98,-1599.24" style=""/>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;ZkSync.hashStoredBlockInfo -->
+<g id="edge80" class="edge" data-name="ZkSync.executeOneBlock-&gt;ZkSync.hashStoredBlockInfo">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M569.84,-1700.36C578.63,-1704.3 586.73,-1709.67 592.88,-1717 656.87,-1793.13 553.37,-1865.98 620.88,-1939 629.24,-1948.04 639.75,-1954.48 651.17,-1959.03" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="650.35,-1962.45 660.95,-1962.42 652.64,-1955.84 650.35,-1962.45" style=""/>
+</g>
+<!-- Utils.concatHash -->
+<g id="node85" class="node" pointer-events="visible" data-name="Utils.concatHash">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-1335" rx="56.16" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-1330.8" font-family="Times,serif" font-size="14.00" style="">concatHash</text>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;Utils.concatHash -->
+<g id="edge92" class="edge" data-name="ZkSync.executeOneBlock-&gt;Utils.concatHash">
+
+<path fill="none" stroke="white" stroke-width="2" d="M570.9,-1679.94C579.44,-1675.95 587.18,-1670.48 592.88,-1663 655.16,-1581.32 557.51,-819.83 620.88,-739 703.81,-633.24 779.06,-676.17 912.22,-658 1134.7,-627.65 1252.22,-534.03 1416.6,-687 1468.93,-735.7 1393.72,-797.05 1446.74,-845 1502.93,-895.81 1725.99,-829.16 1786.3,-875 1929.28,-983.68 1953.86,-1224.75 1958.08,-1306.92" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1954.59,-1307.17 1958.54,-1317.01 1961.59,-1306.86 1954.59,-1307.17" style=""/>
+</g>
+<!-- Operations.OpType -->
+<g id="node91" class="node" pointer-events="visible" data-name="Operations.OpType">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-304" rx="42.86" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-299.8" font-family="Times,serif" font-size="14.00" style="">OpType</text>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;Operations.OpType -->
+<g id="edge81" class="edge" data-name="ZkSync.executeOneBlock-&gt;Operations.OpType">
+
+<path fill="none" stroke="white" stroke-width="2" d="M570.95,-1679.97C579.48,-1675.98 587.2,-1670.5 592.88,-1663 632.93,-1610.1 574.84,-516.77 620.88,-469 743.82,-341.45 1275.99,-528.76 1416.6,-421 1450.08,-395.34 1414.56,-358.28 1446.74,-331 1479.13,-303.55 1528.02,-298.35 1564.86,-299.1" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1564.79,-302.6 1574.91,-299.46 1565.04,-295.61 1564.79,-302.6" style=""/>
+</g>
+<!-- Operations.readPartialExitPubdata -->
+<g id="node92" class="node" pointer-events="visible" data-name="Operations.readPartialExitPubdata">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-196" rx="100.13" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-191.8" font-family="Times,serif" font-size="14.00" style="">readPartialExitPubdata</text>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;Operations.readPartialExitPubdata -->
+<g id="edge82" class="edge" data-name="ZkSync.executeOneBlock-&gt;Operations.readPartialExitPubdata">
+
+<path fill="none" stroke="white" stroke-width="2" d="M570.96,-1679.98C579.49,-1675.99 587.21,-1670.51 592.88,-1663 635.51,-1606.61 571.8,-441.87 620.88,-391 743.87,-263.54 1280.35,-458.17 1416.6,-345 1459.56,-309.31 1405.63,-260.81 1446.74,-223 1463.49,-207.6 1485.34,-199 1507.73,-194.52" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1508.44,-197.94 1517.7,-192.78 1507.24,-191.05 1508.44,-197.94" style=""/>
+</g>
+<!-- Operations.readForcedExitPubdata -->
+<g id="node93" class="node" pointer-events="visible" data-name="Operations.readForcedExitPubdata">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-142" rx="101.85" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-137.8" font-family="Times,serif" font-size="14.00" style="">readForcedExitPubdata</text>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;Operations.readForcedExitPubdata -->
+<g id="edge84" class="edge" data-name="ZkSync.executeOneBlock-&gt;Operations.readForcedExitPubdata">
+
+<path fill="none" stroke="white" stroke-width="2" d="M570.96,-1679.98C579.49,-1675.99 587.21,-1670.51 592.88,-1663 637.03,-1604.56 569.79,-397.47 620.88,-345 682.64,-281.59 1349,-364.14 1416.6,-307 1464.54,-266.47 1401.12,-212.12 1446.74,-169 1463.09,-153.55 1484.55,-144.89 1506.66,-140.34" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1507.27,-143.78 1516.5,-138.58 1506.04,-136.89 1507.27,-143.78" style=""/>
+</g>
+<!-- Operations.readFullExitPubdata -->
+<g id="node94" class="node" pointer-events="visible" data-name="Operations.readFullExitPubdata">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-250" rx="90.35" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-245.8" font-family="Times,serif" font-size="14.00" style="">readFullExitPubdata</text>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;Operations.readFullExitPubdata -->
+<g id="edge86" class="edge" data-name="ZkSync.executeOneBlock-&gt;Operations.readFullExitPubdata">
+
+<path fill="none" stroke="white" stroke-width="2" d="M570.95,-1679.98C579.48,-1675.99 587.21,-1670.51 592.88,-1663 634.52,-1607.95 572.7,-470.41 620.88,-421 682.68,-357.63 1347.26,-438.01 1416.6,-383 1454.97,-352.56 1410.12,-309.52 1446.74,-277 1466.23,-259.69 1492.22,-251.08 1517.95,-247.24" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1518.68,-250.68 1528.17,-245.95 1517.81,-243.73 1518.68,-250.68" style=""/>
+</g>
+<!-- Operations.WithdrawNFT -->
+<g id="node95" class="node" pointer-events="visible" data-name="Operations.WithdrawNFT">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-88" rx="67.79" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-83.8" font-family="Times,serif" font-size="14.00" style="">WithdrawNFT</text>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;Operations.WithdrawNFT -->
+<g id="edge88" class="edge" data-name="ZkSync.executeOneBlock-&gt;Operations.WithdrawNFT">
+
+<path fill="none" stroke="white" stroke-width="2" d="M570.97,-1679.99C579.49,-1675.99 587.21,-1670.51 592.88,-1663 638.02,-1603.22 568.91,-368.94 620.88,-315 682.34,-251.23 1349.88,-327.24 1416.6,-269 1469.14,-223.14 1396.58,-163.45 1446.74,-115 1471.79,-90.81 1509.35,-83.12 1542.67,-81.89" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1542.93,-85.39 1552.86,-81.71 1542.8,-78.39 1542.93,-85.39" style=""/>
+</g>
+<!-- Operations.readWithdrawNFTPubdata -->
+<g id="node96" class="node" pointer-events="visible" data-name="Operations.readWithdrawNFTPubdata">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-34" rx="115.74" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-29.8" font-family="Times,serif" font-size="14.00" style="">readWithdrawNFTPubdata</text>
+</g>
+<!-- ZkSync.executeOneBlock&#45;&gt;Operations.readWithdrawNFTPubdata -->
+<g id="edge90" class="edge" data-name="ZkSync.executeOneBlock-&gt;Operations.readWithdrawNFTPubdata">
+
+<path fill="none" stroke="white" stroke-width="2" d="M570.97,-1679.99C579.5,-1676 587.22,-1670.51 592.88,-1663 639.07,-1601.79 573.61,-343.38 620.88,-283 835.2,-9.26 1301.4,-8.27 1510.43,-23.19" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1510.26,-26.69 1520.49,-23.93 1510.78,-19.71 1510.26,-26.69" style=""/>
+</g>
+<!-- ZkSync.executeBlocks -->
+<g id="node31" class="node" pointer-events="visible" data-name="ZkSync.executeBlocks">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-1690" rx="67.19" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-1685.8" font-family="Times,serif" font-size="14.00" style="">executeBlocks</text>
+</g>
+<!-- ZkSync.executeBlocks&#45;&gt;ZkSync.executeOneBlock -->
+<g id="edge95" class="edge" data-name="ZkSync.executeBlocks-&gt;ZkSync.executeOneBlock">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M265.05,-1690C308.83,-1690 366.66,-1690 414.35,-1690" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="414.36,-1693.5 424.36,-1690 414.36,-1686.5 414.36,-1693.5" style=""/>
+</g>
+<!-- ZkSync.executeBlocks&#45;&gt;ZkSync.requireActive -->
+<g id="edge93" class="edge" data-name="ZkSync.executeBlocks-&gt;ZkSync.requireActive">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M264.3,-1692.76C303.15,-1697.95 350.27,-1711.04 379.23,-1743 436.95,-1806.68 349.05,-1878.17 415.23,-1933 445.64,-1958.18 561.49,-1956.94 592.88,-1933 630.27,-1904.5 586.59,-1863.16 620.88,-1831 636.35,-1816.5 657.46,-1808.91 678.2,-1805.15" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="678.97,-1808.58 688.32,-1803.6 677.91,-1801.66 678.97,-1808.58" style=""/>
+</g>
+<!-- ZkSync.BlockVerification -->
+<g id="node66" class="node" pointer-events="visible" data-name="ZkSync.BlockVerification">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="504.06" cy="-1636" rx="80.51" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1631.8" font-family="Times,serif" font-size="14.00" style="">BlockVerification</text>
+</g>
+<!-- ZkSync.executeBlocks&#45;&gt;ZkSync.BlockVerification -->
+<g id="edge96" class="edge" data-name="ZkSync.executeBlocks-&gt;ZkSync.BlockVerification">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M258.17,-1682.11C293.46,-1677.18 339.01,-1670.38 379.23,-1663 398.22,-1659.51 418.74,-1655.25 437.5,-1651.14" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="438.42,-1654.52 447.43,-1648.95 436.91,-1647.69 438.42,-1654.52" style=""/>
+</g>
+<!-- ZkSync.executeBlocks&#45;&gt;governance.requireActiveValidator -->
+<g id="edge94" class="edge" data-name="ZkSync.executeBlocks-&gt;governance.requireActiveValidator">
+
+<path fill="none" stroke="white" stroke-width="2" d="M259.18,-1697.5C298.48,-1698.81 348.01,-1693.2 379.23,-1663 442.89,-1601.42 395.17,-1553.27 415.23,-1467 491.39,-1139.52 352.77,-941.87 620.88,-739 815.25,-591.93 930.56,-698.53 1169.23,-748 1285.02,-772 1334.67,-760.72 1416.6,-846 1444.66,-875.21 1415.67,-906.03 1446.74,-932 1463.53,-946.03 1484.64,-954.21 1506.19,-958.76" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1505.64,-962.22 1516.11,-960.6 1506.92,-955.34 1505.64,-962.22" style=""/>
+</g>
+<!-- ZkSync.proveBlocks -->
+<g id="node32" class="node" pointer-events="visible" data-name="ZkSync.proveBlocks">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="504.06" cy="-2088" rx="59.7" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-2083.8" font-family="Times,serif" font-size="14.00" style="">proveBlocks</text>
+</g>
+<!-- ZkSync.proveBlocks&#45;&gt;ZkSync.hashStoredBlockInfo -->
+<g id="edge98" class="edge" data-name="ZkSync.proveBlocks-&gt;ZkSync.hashStoredBlockInfo">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M557.77,-2079.89C570.43,-2075.89 583.1,-2069.92 592.88,-2061 617.04,-2038.98 595.72,-2013.85 620.88,-1993 630.67,-1984.89 642.25,-1979.02 654.42,-1974.8" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="655.76,-1978.05 664.28,-1971.75 653.7,-1971.36 655.76,-1978.05" style=""/>
+</g>
+<!-- ZkSync.proveBlocks&#45;&gt;ZkSync.requireActive -->
+<g id="edge97" class="edge" data-name="ZkSync.proveBlocks-&gt;ZkSync.requireActive">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M559.99,-2081.44C572.46,-2077.41 584.49,-2071.03 592.88,-2061 658.97,-1982.03 551.14,-1906.76 620.88,-1831 635.65,-1814.96 657.21,-1807.07 678.58,-1803.5" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="679.26,-1806.94 688.69,-1802.11 678.31,-1800 679.26,-1806.94" style=""/>
+</g>
+<!-- verifier.verifyAggregatedBlockProof -->
+<g id="node104" class="node" pointer-events="visible" data-name="verifier.verifyAggregatedBlockProof">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="752.55" cy="-2395" rx="123.83" ry="18" style=""/>
+<text text-anchor="middle" x="752.55" y="-2390.8" font-family="Times,serif" font-size="14.00" style="">verifyAggregatedBlockProof</text>
+</g>
+<!-- ZkSync.proveBlocks&#45;&gt;verifier.verifyAggregatedBlockProof -->
+<g id="edge99" class="edge" data-name="ZkSync.proveBlocks-&gt;verifier.verifyAggregatedBlockProof">
+
+<path fill="none" stroke="white" stroke-width="2" d="M560.06,-2094.51C572.53,-2098.54 584.54,-2104.93 592.88,-2115 664.23,-2201.08 546.46,-2281.56 620.88,-2365 626.39,-2371.17 632.87,-2376.2 639.97,-2380.3" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="638.75,-2383.6 649.26,-2385 641.92,-2377.36 638.75,-2383.6" style=""/>
+</g>
+<!-- ZkSync.revertBlocks -->
+<g id="node33" class="node" pointer-events="visible" data-name="ZkSync.revertBlocks">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-1770" rx="60.26" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-1765.8" font-family="Times,serif" font-size="14.00" style="">revertBlocks</text>
+</g>
+<!-- ZkSync.revertBlocks&#45;&gt;ZkSync.delegateAdditional -->
+<g id="edge100" class="edge" data-name="ZkSync.revertBlocks-&gt;ZkSync.delegateAdditional">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M253.6,-1763.22C293.39,-1761.51 345.83,-1766.34 379.23,-1797 430.06,-1843.65 369.34,-1896.48 415.23,-1948 420.55,-1953.96 427.06,-1958.82 434.12,-1962.77" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="432.79,-1966.01 443.31,-1967.3 435.89,-1959.74 432.79,-1966.01" style=""/>
+</g>
+<!-- ZkSync.activateExodusMode -->
+<g id="node34" class="node" pointer-events="visible" data-name="ZkSync.activateExodusMode">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-1636" rx="92.62" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-1631.8" font-family="Times,serif" font-size="14.00" style="">activateExodusMode</text>
+</g>
+<!-- ZkSync.ExodusMode -->
+<g id="node67" class="node" pointer-events="visible" data-name="ZkSync.ExodusMode">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="504.06" cy="-1582" rx="62.57" ry="18" style=""/>
+<text text-anchor="middle" x="504.06" y="-1577.8" font-family="Times,serif" font-size="14.00" style="">ExodusMode</text>
+</g>
+<!-- ZkSync.activateExodusMode&#45;&gt;ZkSync.ExodusMode -->
+<g id="edge101" class="edge" data-name="ZkSync.activateExodusMode-&gt;ZkSync.ExodusMode">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M274.38,-1625.82C306.76,-1621.17 344.93,-1615.3 379.23,-1609 400.81,-1605.04 424.36,-1600.07 445.07,-1595.48" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="445.99,-1598.86 454.99,-1593.26 444.47,-1592.03 445.99,-1598.86" style=""/>
+</g>
+<!-- ZkSync.performExodus -->
+<g id="node35" class="node" pointer-events="visible" data-name="ZkSync.performExodus">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-2094" rx="71.22" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-2089.8" font-family="Times,serif" font-size="14.00" style="">performExodus</text>
+</g>
+<!-- ZkSync.performExodus&#45;&gt;ZkSync.delegateAdditional -->
+<g id="edge102" class="edge" data-name="ZkSync.performExodus-&gt;ZkSync.delegateAdditional">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M267.96,-2097.26C303.85,-2095.76 346.82,-2088.68 379.23,-2067 405.09,-2049.71 390.75,-2026.17 415.23,-2007 420.55,-2002.84 426.51,-1999.31 432.75,-1996.33" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="434.26,-1999.49 442.07,-1992.33 431.5,-1993.06 434.26,-1999.49" style=""/>
+</g>
+<!-- ZkSync.setAuthPubkeyHash -->
+<g id="node36" class="node" pointer-events="visible" data-name="ZkSync.setAuthPubkeyHash">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="197.62" cy="-1986" rx="89.79" ry="18" style=""/>
+<text text-anchor="middle" x="197.62" y="-1981.8" font-family="Times,serif" font-size="14.00" style="">setAuthPubkeyHash</text>
+</g>
+<!-- ZkSync.setAuthPubkeyHash&#45;&gt;ZkSync.delegateAdditional -->
+<g id="edge103" class="edge" data-name="ZkSync.setAuthPubkeyHash-&gt;ZkSync.delegateAdditional">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M287.49,-1984.25C325.84,-1983.49 370.71,-1982.61 409.56,-1981.84" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="409.89,-1985.34 419.82,-1981.64 409.75,-1978.34 409.89,-1985.34" style=""/>
+</g>
+<!-- ZkSync.registerDeposit&#45;&gt;ZkSync.addPriorityRequest -->
+<g id="edge106" class="edge" data-name="ZkSync.registerDeposit-&gt;ZkSync.addPriorityRequest">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M818.84,-1736C841.15,-1740.53 865.24,-1748.39 884.22,-1762 903.05,-1775.51 893.42,-1792.44 912.22,-1806 924.97,-1815.2 940.1,-1821.77 955.39,-1826.45" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="954.87,-1829.94 965.45,-1829.27 956.76,-1823.2 954.87,-1829.94" style=""/>
+</g>
+<!-- ZkSync.Deposit -->
+<g id="node68" class="node" pointer-events="visible" data-name="ZkSync.Deposit">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1040.72" cy="-1892" rx="41.16" ry="18" style=""/>
+<text text-anchor="middle" x="1040.72" y="-1887.8" font-family="Times,serif" font-size="14.00" style="">Deposit</text>
+</g>
+<!-- ZkSync.registerDeposit&#45;&gt;ZkSync.Deposit -->
+<g id="edge107" class="edge" data-name="ZkSync.registerDeposit-&gt;ZkSync.Deposit">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M821.69,-1733.07C844.13,-1737.33 867.58,-1745.78 884.22,-1762 918.18,-1795.12 877.73,-1832.42 912.22,-1865 932.69,-1884.34 963.4,-1891.26 989.55,-1893.26" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="989.51,-1896.76 999.69,-1893.81 989.89,-1889.77 989.51,-1896.76" style=""/>
+</g>
+<!-- Operations.Deposit -->
+<g id="node97" class="node" pointer-events="visible" data-name="Operations.Deposit">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-520" rx="41.16" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-515.8" font-family="Times,serif" font-size="14.00" style="">Deposit</text>
+</g>
+<!-- ZkSync.registerDeposit&#45;&gt;Operations.Deposit -->
+<g id="edge104" class="edge" data-name="ZkSync.registerDeposit-&gt;Operations.Deposit">
+
+<path fill="none" stroke="white" stroke-width="2" d="M800.38,-1716.79C828.58,-1706.51 863.02,-1689.46 884.22,-1663 915.22,-1624.3 893.46,-1600.9 912.22,-1555 1010.79,-1313.84 991.59,-1196.87 1204.69,-1047 1282.96,-991.96 1352.84,-1080.35 1416.6,-1009 1485.15,-932.28 1377.47,-623.07 1446.74,-547 1476.64,-514.17 1529.25,-510.49 1567.8,-513.11" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1567.52,-516.6 1577.78,-513.94 1568.1,-509.62 1567.52,-516.6" style=""/>
+</g>
+<!-- Operations.writeDepositPubdataForPriorityQueue -->
+<g id="node98" class="node" pointer-events="visible" data-name="Operations.writeDepositPubdataForPriorityQueue">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-466" rx="160.32" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-461.8" font-family="Times,serif" font-size="14.00" style="">writeDepositPubdataForPriorityQueue</text>
+</g>
+<!-- ZkSync.registerDeposit&#45;&gt;Operations.writeDepositPubdataForPriorityQueue -->
+<g id="edge105" class="edge" data-name="ZkSync.registerDeposit-&gt;Operations.writeDepositPubdataForPriorityQueue">
+
+<path fill="none" stroke="white" stroke-width="2" d="M803.98,-1717.65C832.6,-1707.83 866.2,-1690.97 884.22,-1663 955.18,-1552.84 854.15,-1191.47 912.22,-1074 1042.11,-811.21 1268.22,-901.81 1416.6,-649 1452.34,-588.1 1396.01,-542.12 1446.74,-493 1452.31,-487.61 1458.5,-483.03 1465.13,-479.17" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1467.17,-482.05 1474.42,-474.33 1463.93,-475.85 1467.17,-482.05" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkey -->
+<g id="node39" class="node" pointer-events="visible" data-name="ZkSync.verifyChangePubkey">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-2216" rx="92.63" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-2211.8" font-family="Times,serif" font-size="14.00" style="">verifyChangePubkey</text>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;ZkSync.verifyChangePubkey -->
+<g id="edge114" class="edge" data-name="ZkSync.collectOnchainOps-&gt;ZkSync.verifyChangePubkey">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1123.56,-2206.28C1151.09,-2207.72 1182.11,-2209.34 1210.8,-2210.84" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1210.68,-2214.33 1220.85,-2211.36 1211.04,-2207.34 1210.68,-2214.33" style=""/>
+</g>
+<!-- ZkSync.checkPriorityOperation -->
+<g id="node45" class="node" pointer-events="visible" data-name="ZkSync.checkPriorityOperation">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-2162" rx="101.85" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-2157.8" font-family="Times,serif" font-size="14.00" style="">checkPriorityOperation</text>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;ZkSync.checkPriorityOperation -->
+<g id="edge111" class="edge" data-name="ZkSync.collectOnchainOps-&gt;ZkSync.checkPriorityOperation">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1096.26,-2188.3C1128.21,-2182.43 1169.6,-2175.91 1207.41,-2170.68" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1208.02,-2174.13 1217.45,-2169.31 1207.07,-2167.2 1208.02,-2174.13" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;ZkSync.checkPriorityOperation -->
+<g id="edge120" class="edge" data-name="ZkSync.collectOnchainOps-&gt;ZkSync.checkPriorityOperation">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1121.74,-2196.29C1159.52,-2191.41 1204.16,-2184.66 1240.45,-2178.32" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1241.22,-2181.74 1250.45,-2176.55 1239.99,-2174.85 1241.22,-2181.74" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Utils.concatHash -->
+<g id="edge121" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Utils.concatHash">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1052.55,-2183.94C1078.13,-2140.26 1142.14,-2024.71 1169.23,-1919 1181.73,-1870.2 1169.75,-1503.29 1204.69,-1467 1385.18,-1279.5 1566.99,-1539.14 1786.3,-1399 1802.55,-1388.61 1793.05,-1372.88 1808.98,-1362 1833.59,-1345.18 1865.59,-1337.94 1893.7,-1335.1" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1894.19,-1338.57 1903.86,-1334.24 1893.6,-1331.59 1894.19,-1338.57" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Operations.OpType -->
+<g id="edge108" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Operations.OpType">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1052.71,-2183.98C1078.64,-2140.39 1143.38,-2025.02 1169.23,-1919 1186.2,-1849.38 1157.21,-1328.68 1204.69,-1275 1268.08,-1203.33 1353.99,-1309.36 1416.6,-1237 1482.5,-1160.83 1380.12,-406.54 1446.74,-331 1475.84,-298.01 1527.84,-294.17 1566.46,-296.79" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1566.2,-300.28 1576.46,-297.63 1566.79,-293.3 1566.2,-300.28" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Operations.readFullExitPubdata -->
+<g id="edge119" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Operations.readFullExitPubdata">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1052.73,-2183.98C1078.71,-2140.4 1143.54,-2025.06 1169.23,-1919 1240.67,-1624.01 1158.43,-1536.97 1204.69,-1237 1261.8,-866.68 1331.09,-785.81 1416.6,-421 1431.52,-357.34 1399.42,-322.12 1446.74,-277 1466.17,-258.48 1492.94,-249.68 1519.43,-246.04" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1520.02,-249.49 1529.56,-244.88 1519.23,-242.54 1520.02,-249.49" style=""/>
+</g>
+<!-- Operations.readDepositPubdata -->
+<g id="node99" class="node" pointer-events="visible" data-name="Operations.readDepositPubdata">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-628" rx="88.61" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-623.8" font-family="Times,serif" font-size="14.00" style="">readDepositPubdata</text>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Operations.readDepositPubdata -->
+<g id="edge110" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Operations.readDepositPubdata">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1052.62,-2183.95C1078.35,-2140.32 1142.68,-2024.85 1169.23,-1919 1197.4,-1806.65 1136.76,-1492.81 1204.69,-1399 1264.3,-1316.67 1357.91,-1395.99 1416.6,-1313 1458.86,-1253.24 1397.99,-709.59 1446.74,-655 1466.37,-633.02 1496.16,-624.03 1525.28,-621.26" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1525.81,-624.73 1535.54,-620.53 1525.31,-617.75 1525.81,-624.73" style=""/>
+</g>
+<!-- Operations.readChangePubKeyPubdata -->
+<g id="node100" class="node" pointer-events="visible" data-name="Operations.readChangePubKeyPubdata">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-574" rx="119.26" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-569.8" font-family="Times,serif" font-size="14.00" style="">readChangePubKeyPubdata</text>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Operations.readChangePubKeyPubdata -->
+<g id="edge113" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Operations.readChangePubKeyPubdata">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1052.69,-2183.97C1078.56,-2140.37 1143.19,-2024.97 1169.23,-1919 1185.32,-1853.5 1159.92,-1363.44 1204.69,-1313 1268.21,-1241.44 1353.57,-1347 1416.6,-1275 1465.97,-1218.59 1396.84,-656.94 1446.74,-601 1457.87,-588.53 1472.27,-580.24 1487.96,-574.89" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1489.29,-578.15 1497.88,-571.94 1487.29,-571.44 1489.29,-578.15" style=""/>
+</g>
+<!-- Bytes.slice -->
+<g id="node105" class="node" pointer-events="visible" data-name="Bytes.slice">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-2750" rx="28.97" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2745.8" font-family="Times,serif" font-size="14.00" style="">slice</text>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Bytes.slice -->
+<g id="edge109" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Bytes.slice">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1047.09,-2183.94C1065.15,-2158.42 1125.07,-2163.58 1169.23,-2184 1495.29,-2334.77 1480.65,-2532.23 1808.98,-2678 1856.53,-2699.11 1919.53,-2703.72 1946.18,-2725.12" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1943.74,-2727.63 1953.23,-2732.34 1948.75,-2722.74 1943.74,-2727.63" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Bytes.slice -->
+<g id="edge112" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Bytes.slice">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1063.4,-2184.53C1089.54,-2179.25 1134.31,-2185.86 1169.23,-2202 1495.29,-2352.77 1480.65,-2550.23 1808.98,-2696 1851.12,-2714.71 1905.4,-2720.46 1935.76,-2730.74" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1934.5,-2734.01 1945.08,-2734.43 1937.07,-2727.5 1934.5,-2734.01" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Bytes.slice -->
+<g id="edge115" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Bytes.slice">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1124.76,-2205.1C1139.95,-2208.68 1155.36,-2213.59 1169.23,-2220 1495.29,-2370.77 1480.65,-2568.23 1808.98,-2714 1845.91,-2730.4 1892.16,-2736.84 1923.46,-2741.28" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1923.07,-2744.76 1933.47,-2742.72 1924.07,-2737.83 1923.07,-2744.76" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Bytes.slice -->
+<g id="edge116" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Bytes.slice">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1094.59,-2215.98C1118.21,-2220.69 1145.92,-2227.22 1169.23,-2238 1495.29,-2388.77 1480.65,-2586.23 1808.98,-2732 1845.48,-2748.2 1891.07,-2754.69 1922.35,-2755.43" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1922.36,-2758.93 1932.38,-2755.47 1922.39,-2751.93 1922.36,-2758.93" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Bytes.slice -->
+<g id="edge117" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Bytes.slice">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1056.94,-2219.83C1081.56,-2232.15 1131.23,-2238.43 1169.23,-2256 1495.29,-2406.77 1480.65,-2604.23 1808.98,-2750 1850.51,-2768.44 1903.82,-2774.29 1934.41,-2767.99" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1935.53,-2771.31 1944.23,-2765.26 1933.66,-2764.57 1935.53,-2771.31" style=""/>
+</g>
+<!-- ZkSync.collectOnchainOps&#45;&gt;Bytes.slice -->
+<g id="edge118" class="edge" data-name="ZkSync.collectOnchainOps-&gt;Bytes.slice">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1046.84,-2220.24C1064.59,-2248.37 1124.86,-2253.49 1169.23,-2274 1495.29,-2424.77 1480.65,-2622.23 1808.98,-2768 1856.33,-2789.02 1918.99,-2793.68 1945.84,-2774.57" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1948.41,-2776.96 1953.23,-2767.53 1943.58,-2771.89 1948.41,-2776.96" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyECRECOVER -->
+<g id="node40" class="node" pointer-events="visible" data-name="ZkSync.verifyChangePubkeyECRECOVER">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-2148" rx="149.95" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-2143.8" font-family="Times,serif" font-size="14.00" style="">verifyChangePubkeyECRECOVER</text>
+</g>
+<!-- ZkSync.verifyChangePubkey&#45;&gt;ZkSync.verifyChangePubkeyECRECOVER -->
+<g id="edge123" class="edge" data-name="ZkSync.verifyChangePubkey-&gt;ZkSync.verifyChangePubkeyECRECOVER">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1372.16,-2202.45C1386.86,-2198.6 1402.42,-2194.07 1416.6,-2189 1430.51,-2184.03 1432.62,-2179.32 1446.74,-2175 1463.11,-2170 1480.67,-2165.88 1498.06,-2162.5" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1499.07,-2165.87 1508.26,-2160.59 1497.79,-2158.99 1499.07,-2165.87" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyECRECOVERV2 -->
+<g id="node41" class="node" pointer-events="visible" data-name="ZkSync.verifyChangePubkeyECRECOVERV2">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-2202" rx="161.55" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-2197.8" font-family="Times,serif" font-size="14.00" style="">verifyChangePubkeyECRECOVERV2</text>
+</g>
+<!-- ZkSync.verifyChangePubkey&#45;&gt;ZkSync.verifyChangePubkeyECRECOVERV2 -->
+<g id="edge126" class="edge" data-name="ZkSync.verifyChangePubkey-&gt;ZkSync.verifyChangePubkeyECRECOVERV2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1401.17,-2211.88C1418.68,-2211.07 1437.53,-2210.2 1456.53,-2209.32" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1456.95,-2212.81 1466.78,-2208.85 1456.63,-2205.82 1456.95,-2212.81" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyOldECRECOVER -->
+<g id="node42" class="node" pointer-events="visible" data-name="ZkSync.verifyChangePubkeyOldECRECOVER">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-2256" rx="164.42" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-2251.8" font-family="Times,serif" font-size="14.00" style="">verifyChangePubkeyOldECRECOVER</text>
+</g>
+<!-- ZkSync.verifyChangePubkey&#45;&gt;ZkSync.verifyChangePubkeyOldECRECOVER -->
+<g id="edge125" class="edge" data-name="ZkSync.verifyChangePubkey-&gt;ZkSync.verifyChangePubkeyOldECRECOVER">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1387.93,-2226.04C1422.07,-2230.54 1463.04,-2235.93 1500.75,-2240.89" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1500.41,-2244.38 1510.78,-2242.21 1501.32,-2237.44 1500.41,-2244.38" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyCREATE2 -->
+<g id="node43" class="node" pointer-events="visible" data-name="ZkSync.verifyChangePubkeyCREATE2">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-2310" rx="134.89" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-2305.8" font-family="Times,serif" font-size="14.00" style="">verifyChangePubkeyCREATE2</text>
+</g>
+<!-- ZkSync.verifyChangePubkey&#45;&gt;ZkSync.verifyChangePubkeyCREATE2 -->
+<g id="edge124" class="edge" data-name="ZkSync.verifyChangePubkey-&gt;ZkSync.verifyChangePubkeyCREATE2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1339.83,-2233.14C1366.45,-2248.54 1407.97,-2270.6 1446.74,-2283 1464.35,-2288.63 1483.39,-2293.12 1502.11,-2296.69" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1501.7,-2300.17 1512.17,-2298.53 1502.96,-2293.29 1501.7,-2300.17" style=""/>
+</g>
+<!-- Operations.ChangePubkeyType -->
+<g id="node101" class="node" pointer-events="visible" data-name="Operations.ChangePubkeyType">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-790" rx="89.2" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-785.8" font-family="Times,serif" font-size="14.00" style="">ChangePubkeyType</text>
+</g>
+<!-- ZkSync.verifyChangePubkey&#45;&gt;Operations.ChangePubkeyType -->
+<g id="edge122" class="edge" data-name="ZkSync.verifyChangePubkey-&gt;Operations.ChangePubkeyType">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1391.99,-2207.31C1401.49,-2203.08 1410.1,-2197.18 1416.6,-2189 1462,-2131.81 1407.74,-936.73 1446.74,-875 1468.87,-839.99 1510.2,-818.84 1546.43,-806.4" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1547.59,-809.7 1556,-803.26 1545.41,-803.05 1547.59,-809.7" style=""/>
+</g>
+<!-- Utils.recoverAddressFromEthSignature -->
+<g id="node86" class="node" pointer-events="visible" data-name="Utils.recoverAddressFromEthSignature">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-1497" rx="142.96" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-1492.8" font-family="Times,serif" font-size="14.00" style="">recoverAddressFromEthSignature</text>
+</g>
+<!-- ZkSync.verifyChangePubkeyECRECOVER&#45;&gt;Utils.recoverAddressFromEthSignature -->
+<g id="edge128" class="edge" data-name="ZkSync.verifyChangePubkeyECRECOVER-&gt;Utils.recoverAddressFromEthSignature">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1683.13,-2131.75C1720.02,-2118.96 1763.18,-2097.09 1786.3,-2061 1816.83,-2013.33 1775.54,-1597.68 1808.98,-1552 1821.64,-1534.71 1840.31,-1522.85 1860.23,-1514.71" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1861.64,-1517.92 1869.76,-1511.12 1859.17,-1511.37 1861.64,-1517.92" style=""/>
+</g>
+<!-- Bytes.read -->
+<g id="node106" class="node" pointer-events="visible" data-name="Bytes.read">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-2480" rx="27.81" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2475.8" font-family="Times,serif" font-size="14.00" style="">read</text>
+</g>
+<!-- ZkSync.verifyChangePubkeyECRECOVER&#45;&gt;Bytes.read -->
+<g id="edge127" class="edge" data-name="ZkSync.verifyChangePubkeyECRECOVER-&gt;Bytes.read">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1757.2,-2154.26C1768.08,-2159.32 1778.03,-2166.08 1786.3,-2175 1827.97,-2219.98 1768.19,-2404.22 1808.98,-2450 1836.99,-2481.44 1887.86,-2485.44 1922.51,-2483.93" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1922.93,-2487.41 1932.7,-2483.31 1922.51,-2480.43 1922.93,-2487.41" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyECRECOVERV2&#45;&gt;Utils.recoverAddressFromEthSignature -->
+<g id="edge131" class="edge" data-name="ZkSync.verifyChangePubkeyECRECOVERV2-&gt;Utils.recoverAddressFromEthSignature">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1761.92,-2193.97C1771.03,-2189.11 1779.32,-2182.89 1786.3,-2175 1832.19,-2123.12 1768.29,-1608.06 1808.98,-1552 1821.57,-1534.66 1840.22,-1522.77 1860.12,-1514.63" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1861.54,-1517.84 1869.66,-1511.04 1859.07,-1511.29 1861.54,-1517.84" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyECRECOVERV2&#45;&gt;Bytes.read -->
+<g id="edge129" class="edge" data-name="ZkSync.verifyChangePubkeyECRECOVERV2-&gt;Bytes.read">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1760.96,-2210.35C1770.35,-2215.12 1778.96,-2221.24 1786.3,-2229 1820.21,-2264.88 1775.77,-2413.47 1808.98,-2450 1837.23,-2481.07 1887.81,-2485.2 1922.35,-2483.82" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1922.73,-2487.31 1932.51,-2483.24 1922.33,-2480.32 1922.73,-2487.31" style=""/>
+</g>
+<!-- Bytes.readBytes32 -->
+<g id="node107" class="node" pointer-events="visible" data-name="Bytes.readBytes32">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-2642" rx="59.11" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2637.8" font-family="Times,serif" font-size="14.00" style="">readBytes32</text>
+</g>
+<!-- ZkSync.verifyChangePubkeyECRECOVERV2&#45;&gt;Bytes.readBytes32 -->
+<g id="edge130" class="edge" data-name="ZkSync.verifyChangePubkeyECRECOVERV2-&gt;Bytes.readBytes32">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1761.73,-2210.2C1770.87,-2215.02 1779.23,-2221.19 1786.3,-2229 1843.94,-2292.72 1751.95,-2550.72 1808.98,-2615 1829.72,-2638.38 1863.26,-2645.93 1893.37,-2647.28" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1893.35,-2650.78 1903.43,-2647.52 1893.51,-2643.79 1893.35,-2650.78" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyOldECRECOVER&#45;&gt;Utils.recoverAddressFromEthSignature -->
+<g id="edge138" class="edge" data-name="ZkSync.verifyChangePubkeyOldECRECOVER-&gt;Utils.recoverAddressFromEthSignature">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1762.72,-2247.58C1771.51,-2242.78 1779.52,-2236.68 1786.3,-2229 1836.08,-2172.56 1764.86,-1612.97 1808.98,-1552 1821.54,-1534.64 1840.18,-1522.75 1860.09,-1514.61" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1861.5,-1517.82 1869.62,-1511.01 1859.03,-1511.27 1861.5,-1517.82" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyOldECRECOVER&#45;&gt;Bytes.read -->
+<g id="edge132" class="edge" data-name="ZkSync.verifyChangePubkeyOldECRECOVER-&gt;Bytes.read">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1761.08,-2264.81C1770.37,-2269.5 1778.94,-2275.46 1786.3,-2283 1838.63,-2336.59 1757.69,-2395.41 1808.98,-2450 1837.73,-2480.61 1888.19,-2484.85 1922.57,-2483.62" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1922.88,-2487.11 1932.68,-2483.08 1922.51,-2480.12 1922.88,-2487.11" style=""/>
+</g>
+<!-- Bytes.bytesToHexASCIIBytes -->
+<g id="node108" class="node" pointer-events="visible" data-name="Bytes.bytesToHexASCIIBytes">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-2588" rx="105.4" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2583.8" font-family="Times,serif" font-size="14.00" style="">bytesToHexASCIIBytes</text>
+</g>
+<!-- ZkSync.verifyChangePubkeyOldECRECOVER&#45;&gt;Bytes.bytesToHexASCIIBytes -->
+<g id="edge133" class="edge" data-name="ZkSync.verifyChangePubkeyOldECRECOVER-&gt;Bytes.bytesToHexASCIIBytes">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1648.58,-2238.26C1686.98,-2228.24 1751.52,-2227.43 1786.3,-2265 1828.4,-2310.49 1767.32,-2497.1 1808.98,-2543 1825.31,-2560.99 1849.23,-2569.55 1873.19,-2573.96" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1872.64,-2577.42 1883.07,-2575.56 1873.76,-2570.51 1872.64,-2577.42" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyOldECRECOVER&#45;&gt;Bytes.bytesToHexASCIIBytes -->
+<g id="edge134" class="edge" data-name="ZkSync.verifyChangePubkeyOldECRECOVER-&gt;Bytes.bytesToHexASCIIBytes">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1761.92,-2264.58C1770.96,-2269.34 1779.24,-2275.38 1786.3,-2283 1828.4,-2328.49 1767.32,-2515.1 1808.98,-2561 1818.73,-2571.74 1831.19,-2579.12 1844.74,-2584.09" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1843.69,-2587.43 1854.28,-2587.15 1845.83,-2580.76 1843.69,-2587.43" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyOldECRECOVER&#45;&gt;Bytes.bytesToHexASCIIBytes -->
+<g id="edge136" class="edge" data-name="ZkSync.verifyChangePubkeyOldECRECOVER-&gt;Bytes.bytesToHexASCIIBytes">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1724.72,-2269.58C1747.92,-2274.52 1770.27,-2283.69 1786.3,-2301 1828.4,-2346.49 1767.32,-2533.1 1808.98,-2579 1836.05,-2608.83 1883.97,-2612.73 1918.36,-2607.2" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1919.43,-2610.56 1928.57,-2605.2 1918.08,-2603.69 1919.43,-2610.56" style=""/>
+</g>
+<!-- Bytes.toBytesFromUInt32 -->
+<g id="node109" class="node" pointer-events="visible" data-name="Bytes.toBytesFromUInt32">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-2534" rx="88.66" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2529.8" font-family="Times,serif" font-size="14.00" style="">toBytesFromUInt32</text>
+</g>
+<!-- ZkSync.verifyChangePubkeyOldECRECOVER&#45;&gt;Bytes.toBytesFromUInt32 -->
+<g id="edge135" class="edge" data-name="ZkSync.verifyChangePubkeyOldECRECOVER-&gt;Bytes.toBytesFromUInt32">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1772.26,-2262.03C1777.31,-2265.5 1782.02,-2269.47 1786.3,-2274 1820.64,-2310.38 1774.99,-2461.28 1808.98,-2498 1823.56,-2513.76 1843.97,-2522.24 1865.05,-2526.76" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1864.62,-2530.24 1875.09,-2528.62 1865.89,-2523.35 1864.62,-2530.24" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyOldECRECOVER&#45;&gt;Bytes.toBytesFromUInt32 -->
+<g id="edge137" class="edge" data-name="ZkSync.verifyChangePubkeyOldECRECOVER-&gt;Bytes.toBytesFromUInt32">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1746.39,-2267.05C1761.43,-2272.41 1775.3,-2280.35 1786.3,-2292 1820.64,-2328.38 1774.99,-2479.28 1808.98,-2516 1828.99,-2537.62 1859.98,-2545.54 1888.6,-2546.85" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1888.54,-2550.35 1898.61,-2547.05 1888.68,-2543.35 1888.54,-2550.35" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyCREATE2&#45;&gt;Bytes.readBytes32 -->
+<g id="edge140" class="edge" data-name="ZkSync.verifyChangePubkeyCREATE2-&gt;Bytes.readBytes32">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1751.34,-2308.87C1764.55,-2314.43 1776.62,-2322.25 1786.3,-2333 1827.03,-2378.23 1768.03,-2560.95 1808.98,-2606 1829.36,-2628.42 1861.51,-2636.18 1890.82,-2638.72" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1890.84,-2642.23 1901.05,-2639.42 1891.31,-2635.25 1890.84,-2642.23" style=""/>
+</g>
+<!-- ZkSync.verifyChangePubkeyCREATE2&#45;&gt;Bytes.readBytes32 -->
+<g id="edge141" class="edge" data-name="ZkSync.verifyChangePubkeyCREATE2-&gt;Bytes.readBytes32">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1730.62,-2319.67C1751.74,-2325.27 1771.73,-2334.82 1786.3,-2351 1827.03,-2396.23 1768.03,-2578.95 1808.98,-2624 1832.99,-2650.41 1873.34,-2656.48 1906.14,-2655" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1906.77,-2658.47 1916.5,-2654.27 1906.28,-2651.48 1906.77,-2658.47" style=""/>
+</g>
+<!-- Bytes.readAddress -->
+<g id="node110" class="node" pointer-events="visible" data-name="Bytes.readAddress">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-2696" rx="59.11" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2691.8" font-family="Times,serif" font-size="14.00" style="">readAddress</text>
+</g>
+<!-- ZkSync.verifyChangePubkeyCREATE2&#45;&gt;Bytes.readAddress -->
+<g id="edge139" class="edge" data-name="ZkSync.verifyChangePubkeyCREATE2-&gt;Bytes.readAddress">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1745.71,-2315.37C1761.14,-2321.11 1775.3,-2329.63 1786.3,-2342 1834.67,-2396.46 1760.35,-2614.77 1808.98,-2669 1829.77,-2692.18 1863.14,-2699.76 1893.13,-2701.17" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1893.07,-2704.67 1903.15,-2701.43 1893.25,-2697.67 1893.07,-2704.67" style=""/>
+</g>
+<!-- Operations.checkDepositInPriorityQueue -->
+<g id="node102" class="node" pointer-events="visible" data-name="Operations.checkDepositInPriorityQueue">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-736" rx="126.2" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-731.8" font-family="Times,serif" font-size="14.00" style="">checkDepositInPriorityQueue</text>
+</g>
+<!-- ZkSync.checkPriorityOperation&#45;&gt;Operations.checkDepositInPriorityQueue -->
+<g id="edge142" class="edge" data-name="ZkSync.checkPriorityOperation-&gt;Operations.checkDepositInPriorityQueue">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1373.17,-2147.69C1390.03,-2140.68 1406.44,-2130.3 1416.6,-2115 1458.15,-2052.41 1397.36,-819.62 1446.74,-763 1456,-752.38 1467.63,-744.77 1480.44,-739.43" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1481.78,-742.66 1489.95,-735.92 1479.36,-736.09 1481.78,-742.66" style=""/>
+</g>
+<!-- Operations.checkFullExitInPriorityQueue -->
+<g id="node103" class="node" pointer-events="visible" data-name="Operations.checkFullExitInPriorityQueue">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1616.52" cy="-682" rx="127.93" ry="18" style=""/>
+<text text-anchor="middle" x="1616.52" y="-677.8" font-family="Times,serif" font-size="14.00" style="">checkFullExitInPriorityQueue</text>
+</g>
+<!-- ZkSync.checkPriorityOperation&#45;&gt;Operations.checkFullExitInPriorityQueue -->
+<g id="edge143" class="edge" data-name="ZkSync.checkPriorityOperation-&gt;Operations.checkFullExitInPriorityQueue">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1373.18,-2147.69C1390.04,-2140.68 1406.45,-2130.31 1416.6,-2115 1459.78,-2049.89 1395.42,-767.9 1446.74,-709 1455.6,-698.84 1466.63,-691.43 1478.77,-686.13" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1480.19,-689.33 1488.26,-682.46 1477.67,-682.8 1480.19,-689.33" style=""/>
+</g>
+<!-- ZkSync.PriorityOperation -->
+<g id="node69" class="node" pointer-events="visible" data-name="ZkSync.PriorityOperation">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-2034" rx="79.32" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-2029.8" font-family="Times,serif" font-size="14.00" style="">PriorityOperation</text>
+</g>
+<!-- ZkSync.addPriorityRequest&#45;&gt;ZkSync.PriorityOperation -->
+<g id="edge145" class="edge" data-name="ZkSync.addPriorityRequest-&gt;ZkSync.PriorityOperation">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1124.49,-1841.74C1141.01,-1846.02 1157.01,-1853.22 1169.23,-1865 1216.04,-1910.16 1158.86,-1960.84 1204.69,-2007 1211.48,-2013.84 1219.75,-2019.02 1228.64,-2022.93" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1227.51,-2026.25 1238.1,-2026.57 1230.02,-2019.71 1227.51,-2026.25" style=""/>
+</g>
+<!-- ZkSync.NewPriorityRequest -->
+<g id="node70" class="node" pointer-events="visible" data-name="ZkSync.NewPriorityRequest">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1310.64" cy="-2088" rx="89.78" ry="18" style=""/>
+<text text-anchor="middle" x="1310.64" y="-2083.8" font-family="Times,serif" font-size="14.00" style="">NewPriorityRequest</text>
+</g>
+<!-- ZkSync.addPriorityRequest&#45;&gt;ZkSync.NewPriorityRequest -->
+<g id="edge146" class="edge" data-name="ZkSync.addPriorityRequest-&gt;ZkSync.NewPriorityRequest">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1125.08,-1841.14C1141.57,-1845.46 1157.41,-1852.82 1169.23,-1865 1230.89,-1928.52 1144.41,-1996.17 1204.69,-2061 1209.89,-2066.59 1216.07,-2071.08 1222.8,-2074.69" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1221.73,-2078.05 1232.27,-2079.08 1224.67,-2071.7 1221.73,-2078.05" style=""/>
+</g>
+<!-- Utils.hashBytesToBytes20 -->
+<g id="node87" class="node" pointer-events="visible" data-name="Utils.hashBytesToBytes20">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-1443" rx="93.23" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-1438.8" font-family="Times,serif" font-size="14.00" style="">hashBytesToBytes20</text>
+</g>
+<!-- ZkSync.addPriorityRequest&#45;&gt;Utils.hashBytesToBytes20 -->
+<g id="edge144" class="edge" data-name="ZkSync.addPriorityRequest-&gt;Utils.hashBytesToBytes20">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1110.54,-1827.42C1132.52,-1820.6 1154.84,-1809.4 1169.23,-1791 1213.82,-1733.93 1151.54,-1516.2 1204.69,-1467 1299.18,-1379.53 1693.24,-1412.23 1871.13,-1432.13" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1870.91,-1435.63 1881.24,-1433.28 1871.7,-1428.68 1870.91,-1435.63" style=""/>
+</g>
+<!-- ZkSync.PendingBalance -->
+<g id="node71" class="node" pointer-events="visible" data-name="ZkSync.PendingBalance">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-1980" rx="73.58" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-1975.8" font-family="Times,serif" font-size="14.00" style="">PendingBalance</text>
+</g>
+<!-- ZkSync.increaseBalanceToWithdraw&#45;&gt;ZkSync.PendingBalance -->
+<g id="edge147" class="edge" data-name="ZkSync.increaseBalanceToWithdraw-&gt;ZkSync.PendingBalance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1739.82,-1980C1784.98,-1980 1835.07,-1980 1875.94,-1980" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1876.13,-1983.5 1886.13,-1980 1876.13,-1976.5 1876.13,-1983.5" style=""/>
+</g>
+<!-- balance.add -->
+<g id="node111" class="node" pointer-events="visible" data-name="balance.add">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1959.96" cy="-2395" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="1959.96" y="-2390.8" font-family="Times,serif" font-size="14.00" style="">add</text>
+</g>
+<!-- ZkSync.increaseBalanceToWithdraw&#45;&gt;balance.add -->
+<g id="edge148" class="edge" data-name="ZkSync.increaseBalanceToWithdraw-&gt;balance.add">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1739.65,-1979.43C1757.38,-1984.64 1773.82,-1993.28 1786.3,-2007 1839.91,-2065.99 1756.52,-2304.98 1808.98,-2365 1836.85,-2396.89 1888.21,-2400.69 1922.97,-2399.02" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1923.43,-2402.5 1933.18,-2398.35 1922.98,-2395.51 1923.43,-2402.5" style=""/>
+</g>
+<!-- key -->
+<g id="node112" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="262.62,-2616 132.62,-2616 132.62,-2528 262.62,-2528 262.62,-2616" style=""/>
+<text text-anchor="start" x="182.26" y="-2597.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="178.37" y="-2577.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="155.82" y="-2557.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="142.22" y="-2537.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node113" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="531.06,-2616 477.06,-2616 477.06,-2528 531.06,-2528 531.06,-2616" style=""/>
+<text text-anchor="start" x="494.06" y="-2597.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="494.06" y="-2577.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="492.06,-2552 492.06,-2572 517.06,-2572 517.06,-2552 492.06,-2552" style=""/>
+<text text-anchor="start" x="494.06" y="-2557.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="494.06,-2534 494.06,-2550 515.06,-2550 515.06,-2534 494.06,-2534" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge149" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M255.62,-2602C356.78,-2602 384.59,-2602 480.89,-2602" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="481.06,-2605.5 491.06,-2602 481.06,-2598.5 481.06,-2605.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge150" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M255.62,-2582C356.78,-2582 384.59,-2582 480.89,-2582" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="481.06,-2585.5 491.06,-2582 481.06,-2578.5 481.06,-2585.5" style=""/>
+</g>
+</g>
+</svg>
