@@ -6,6 +6,7 @@ pragma solidity ^0.7.0;
 /// @author Matter Labs
 contract Config {
     /// @dev ERC20 tokens and ETH withdrawals gas limit, used only for complete withdrawals
+    // zksync自己的fee-model：https://v2-docs.zksync.io/dev/zksync-v2/fee-model.html
     uint256 internal constant WITHDRAWAL_GAS_LIMIT = 100000;
 
     /// @dev NFT withdrawals gas limit, used only for complete withdrawals

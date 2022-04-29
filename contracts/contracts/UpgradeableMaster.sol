@@ -4,6 +4,8 @@ pragma solidity ^0.7.0;
 
 /// @title Interface of the upgradeable master contract (defines notice period duration and allows finish upgrade during preparation of it)
 /// @author Matter Labs
+
+// interface的使用方式：https://www.tutorialspoint.com/solidity/solidity_interfaces.htm
 interface UpgradeableMaster {
     /// @notice Notice period before activation preparation status of upgrade mode
     function getNoticePeriod() external returns (uint256);

@@ -22,6 +22,13 @@ import "./AdditionalZkSync.sol";
 
 /// @title zkSync main contract
 /// @author Matter Labs
+
+// ZkSync继承了这五个合约
+// 1）UpgradeableMaster｜Interface：定义了master contract升级的interface，并且在zksync的主合约中完善其代码（一些通知的信息，以及upgrade的控制）
+// 2）Storage｜Contract：声明了许多local variables（inside function declare），需要慢慢拆解一下这些variables
+// 3）Config｜Contract：定义了需要byte和gas（比如gas limit那些东西，不过zksync好像叫ergs lim）
+// 4）Events｜Interface：中定义了大部分的contract event，包括rollup的核心逻辑（BlockCommit 打包tx为rollup、BlockVerification等）
+// 5）ReentrancyGuard｜Contract：用于保护合约以免受到reentrant calls的攻击，详细逻辑也需要拆开看看
 contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
     using SafeMath for uint256;
     using SafeMathUInt128 for uint128;
