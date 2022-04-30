@@ -8,6 +8,7 @@ import "./Bytes.sol";
 import "./Utils.sol";
 
 /// @title zkSync operations tools
+// onchain operator
 library Operations {
     // Circuit ops and their pubdata (chunks * bytes)
 
@@ -72,6 +73,7 @@ library Operations {
 
     /// Serialize deposit pubdata
     function writeDepositPubdataForPriorityQueue(Deposit memory op) internal pure returns (bytes memory buf) {
+        // encode打包：https://www.osgeo.cn/solidity/abi-spec.html
         buf = abi.encodePacked(
             uint8(OpType.Deposit),
             bytes4(0), // accountId (ignored) (update when ACCOUNT_ID_BYTES is changed)

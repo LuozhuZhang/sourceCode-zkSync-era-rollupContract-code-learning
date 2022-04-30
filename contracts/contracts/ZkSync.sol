@@ -259,9 +259,12 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
     /// @param _zkSyncAddress The receiver Layer 2 address
     // 实现deposit，把layer1的ether转入layer2
     function depositETH(address _zkSyncAddress) external payable {
+        // depositETH，传入layer2的地址
         require(_zkSyncAddress != SPECIAL_ACCOUNT_ADDRESS, "P");
         require(msg.value > 0, "M"); // Zero-value deposits are forbidden by zkSync rollup logic
+        // 在Storage.sol中被定义，需要!exodusMode（大规模退出模式没有被激活）
         requireActive();
+        // 调用register deposit，就是实际transfer的地方
         registerDeposit(0, SafeCast.toUint128(msg.value), _zkSyncAddress);
     }
 
@@ -758,20 +761,28 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
     /// @param _tokenId Token by id
     /// @param _amount Token amount
     /// @param _owner Receiver
+    // 注册deposit quest：需要打包pubdata，添加请求的优先级，然后触发OnchainDeposit事件
+    // tokenId=0代表ETH，amount是msg.value，_zkSyncAddress=owner转移给新持有者
+    // zksync的设计中有一个owner的概念，owner是实际控制某一笔资产的人，在这里deposit给新的layer owner，就是把资产的控制权转给layer2 addr。另外还有一个rollup key的概念（owner的private key），L2 addr仍然由L1的private key生成，所以可以去看看这部分的逻辑，L2的地址是怎么被生成的
     function registerDeposit(
         uint16 _tokenId,
         uint128 _amount,
         address _owner
     ) internal {
         // Priority Queue request
+        // deposit是优先队列，L1的所有tx都是优先队列（withdraw会更优先一些吗？）
+        // opration中定义了deposit时的数据结构
         Operations.Deposit memory op = Operations.Deposit({
+            // pubdata
             accountId: 0, // unknown at this point
             owner: _owner,
             tokenId: _tokenId,
             amount: _amount
         });
         bytes memory pubData = Operations.writeDepositPubdataForPriorityQueue(op);
+        // 增加优先请求
         addPriorityRequest(Operations.OpType.Deposit, pubData);
+        // 调用deposit event
         emit Deposit(_tokenId, _amount);
     }
 
