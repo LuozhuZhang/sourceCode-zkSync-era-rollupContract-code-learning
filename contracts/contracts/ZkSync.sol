@@ -273,23 +273,27 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
     /// @param _amount Token amount
     /// @param _zkSyncAddress Receiver Layer 2 address
     function depositERC20(
+        // token的合约地址
         IERC20 _token,
         uint104 _amount,
+        // L2地址
         address _zkSyncAddress
     ) external nonReentrant {
         require(_zkSyncAddress != SPECIAL_ACCOUNT_ADDRESS, "P");
         requireActive();
 
-        // Get token id by its address
+        // Get token id by its address，传入该token地址
         uint16 tokenId = governance.validateTokenAddress(address(_token));
         require(!governance.pausedTokens(tokenId), "b"); // token deposits are paused
 
         uint256 balanceBefore = _token.balanceOf(address(this));
         _token.transferFrom(msg.sender, address(this), _amount);
         uint256 balanceAfter = _token.balanceOf(address(this));
+        // after - before
         uint128 depositAmount = SafeCast.toUint128(balanceAfter.sub(balanceBefore));
         require(depositAmount > 0 && depositAmount <= MAX_DEPOSIT_AMOUNT, "C");
 
+        // 跟deposit ETH差不多，不过传入不同的token address
         registerDeposit(tokenId, depositAmount, _zkSyncAddress);
     }
 
