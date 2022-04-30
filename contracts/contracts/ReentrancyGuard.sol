@@ -42,11 +42,14 @@ contract ReentrancyGuard {
         // expensive, but in exchange every call to nonReentrant
         // will be cheaper.
         assembly {
+            // 读取storage[LOCK_FLAG_ADDRESS]
             lockSlotOldValue := sload(LOCK_FLAG_ADDRESS)
+            // 存入一个非零值：storage[LOCK_FLAG_ADDRESS] := _NOT_ENTERED/1
             sstore(LOCK_FLAG_ADDRESS, _NOT_ENTERED)
         }
 
         // Check that storage slot for reentrancy guard is empty to rule out possibility of double initialization
+        // 防止重入初始化，等一下研究研究
         require(lockSlotOldValue == 0, "1B");
     }
 

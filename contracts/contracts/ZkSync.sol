@@ -35,34 +35,42 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
 
     bytes32 private constant EMPTY_STRING_KECCAK = 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470;
 
+    // @todo commit
+    
     /// @notice Data needed to process onchain operation from block public data.
     /// @notice Onchain operations is operations that need some processing on L1: Deposits, Withdrawals, ChangePubKey.
     /// @param ethWitness Some external data that can be needed for operation processing
     /// @param publicDataOffset Byte offset in public data for onchain operation
+    // Deposits, Withdrawals, ChangePubKey在L1上进行，ChangePubKey具体是哪些操作？
+    // 处理rollup数据需要eth witness
+    // publicDataOffset是byte offset
     struct OnchainOperationData {
         bytes ethWitness;
         uint32 publicDataOffset;
     }
 
     /// @notice Data needed to commit new block
+    // 基本上是一个rollup block的数据结构，可见zkscan：https://zkscan.io/explorer/blocks/66003
     struct CommitBlockInfo {
         bytes32 newStateHash;
-        bytes publicData;
+        bytes publicData;  // ？
         uint256 timestamp;
-        OnchainOperationData[] onchainOperations;
+        OnchainOperationData[] onchainOperations;  // ？
         uint32 blockNumber;
-        uint32 feeAccount;
+        uint32 feeAccount;  // ？
     }
 
     /// @notice Data needed to execute committed and verified block
     /// @param commitmentsInSlot verified commitments in one slot
     /// @param commitmentIdx index such that commitmentsInSlot[commitmentIdx] is current block commitment
+    // commit和verify所需的数据
     struct ExecuteBlockInfo {
         StoredBlockInfo storedBlock;
         bytes[] pendingOnchainOpsPubdata;
     }
 
     /// @notice Recursive proof input data (individual commitments are constructed onchain)
+    // proof的input data
     struct ProofInput {
         uint256[] recursiveInput;
         uint256[] proof;
@@ -72,7 +80,7 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
     }
 
     // Upgrade functional
-    /// @todo
+    /// @done
 
     /// @notice Notice period before activation preparation status of upgrade mode
     function getNoticePeriod() external pure override returns (uint256) {
@@ -139,15 +147,21 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
         return true;
     }
 
+    // @todo
+    // 结构函数，初始化 防止重入风险（reentrancy）
     constructor() {
         initializeReentrancyGuard();
     }
 
     /// @notice zkSync contract initialization. Can be external because Proxy contract intercepts illegal calls of this function.
     /// @param initializationParameters Encoded representation of initialization parameters:
+    // 初始化参数的编码表示
     /// @dev _governanceAddress The address of Governance contract
+    // 治理合约地址
     /// @dev _verifierAddress The address of Verifier contract
+    // 验证合约地址
     /// @dev _genesisStateHash Genesis blocks (first block) state tree root hash
+    // 创世区块的root hash
     function initialize(bytes calldata initializationParameters) external {
         initializeReentrancyGuard();
 
