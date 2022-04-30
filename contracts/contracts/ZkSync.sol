@@ -33,6 +33,8 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
     using SafeMath for uint256;
     using SafeMathUInt128 for uint128;
 
+// #region: 1. commit struct
+
     bytes32 private constant EMPTY_STRING_KECCAK = 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470;
 
     // @todo commit
@@ -78,9 +80,12 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
         uint8[] vkIndexes;
         uint256[16] subproofsLimbs;
     }
+// #endregion
+
+// #region: 2. upgrade
 
     // Upgrade functional
-    /// @done
+    /// @hack
 
     /// @notice Notice period before activation preparation status of upgrade mode
     function getNoticePeriod() external pure override returns (uint256) {
@@ -146,7 +151,9 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
     function isReadyForUpgrade() external view override returns (bool) {
         return true;
     }
+// #endregion
 
+// #region: 3. initialize
     // @todo
     // 结构函数，初始化 防止重入风险（reentrancy）
     constructor() {
@@ -188,6 +195,10 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
         approvedUpgradeNoticePeriod = UPGRADE_NOTICE_PERIOD;
         emit NoticePeriodChange(approvedUpgradeNoticePeriod);
     }
+// #endregion
+
+
+// #region: 4. upgrade again
 
     /// @notice zkSync contract upgrade. Can be external because Proxy contract intercepts illegal calls of this function.
     /// @param upgradeParameters Encoded representation of upgrade parameters
@@ -206,7 +217,9 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
         // All functions delegated to additional contract should NOT be nonReentrant
         delegateAdditional();
     }
+// #endregion
 
+// #region: 5. transfer、deposit、withdraw
     /// @notice Sends tokens
     /// @dev NOTE: will revert if transfer call fails or rollup balance difference (before and after transfer) is bigger than _maxAmount
     /// @dev This function is used to allow tokens to spend zkSync contract balance up to amount that is requested
@@ -244,6 +257,7 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
 
     /// @notice Deposit ETH to Layer 2 - transfer ether from user into contract, validate it, register deposit
     /// @param _zkSyncAddress The receiver Layer 2 address
+    // 实现deposit，把layer1的ether转入layer2
     function depositETH(address _zkSyncAddress) external payable {
         require(_zkSyncAddress != SPECIAL_ACCOUNT_ADDRESS, "P");
         require(msg.value > 0, "M"); // Zero-value deposits are forbidden by zkSync rollup logic
@@ -342,7 +356,10 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
 
         emit WithdrawalNFT(op.tokenId);
     }
+// #endregion
 
+
+//#region: 6. full exit
     /// @notice Register full exit request - pack pubdata, add priority request
     /// @param _accountId Numerical id of the account
     /// @param _token Token address, 0 address for ether
@@ -401,7 +418,10 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
         bytes memory pubData = Operations.writeFullExitPubdataForPriorityQueue(op);
         addPriorityRequest(Operations.OpType.FullExit, pubData);
     }
+// #endregion
 
+
+// #region: 7. commit main
     /// @dev Process one block commit using previous block StoredBlockInfo,
     /// @dev returns new block StoredBlockInfo
     function commitOneBlock(StoredBlockInfo memory _previousBlock, CommitBlockInfo memory _newBlock)
@@ -465,6 +485,8 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
 
         require(totalCommittedPriorityRequests <= totalOpenPriorityRequests, "j");
     }
+// #endregion
+
 
     /// @dev 1. Try to send token to _recipients
     /// @dev 2. On failure: Increment _recipients balance to withdraw.
