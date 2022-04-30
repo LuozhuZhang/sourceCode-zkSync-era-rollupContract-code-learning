@@ -1,0 +1,451 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true, bgcolor = "#2e3e56" ];
+  node [ style = "filled", fillcolor = "#edad56", color = "#edad56", penwidth =3 ];
+  edge [ color = "#fcfcfc", penwidth =2, fontname = "helvetica Neue Ultra Light" ];
+subgraph "clusterZkSync" {
+  graph [ label = "ZkSync", color = "#445773", fontcolor = "#f0f0f0", style = "rounded", bgcolor = "#445773" ];
+  "ZkSync.getNoticePeriod" [ label = "getNoticePeriod", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.upgradeNoticePeriodStarted" [ label = "upgradeNoticePeriodStarted", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.upgradePreparationStarted" [ label = "upgradePreparationStarted", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.clearUpgradeStatus" [ label = "clearUpgradeStatus", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ZkSync.upgradeCanceled" [ label = "upgradeCanceled", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.upgradeFinishes" [ label = "upgradeFinishes", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.isReadyForUpgrade" [ label = "isReadyForUpgrade", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.<Constructor>" [ label = "<Constructor>", color = "#FF9797", fillcolor = "#FF9797" ];
+  "ZkSync.initialize" [ label = "initialize", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.upgrade" [ label = "upgrade", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.cutUpgradeNoticePeriod" [ label = "cutUpgradeNoticePeriod", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.cutUpgradeNoticePeriodBySignature" [ label = "cutUpgradeNoticePeriodBySignature", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.transferERC20" [ label = "transferERC20", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.cancelOutstandingDepositsForExodusMode" [ label = "cancelOutstandingDepositsForExodusMode", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.depositETH" [ label = "depositETH", color = "brown", fillcolor = "#ffbdb9" ];
+  "ZkSync.depositERC20" [ label = "depositERC20", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.getPendingBalance" [ label = "getPendingBalance", color = "#FF9797", fillcolor = "#FF9797" ];
+  "ZkSync.withdrawPendingBalance" [ label = "withdrawPendingBalance", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.withdrawPendingNFTBalance" [ label = "withdrawPendingNFTBalance", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.requestFullExit" [ label = "requestFullExit", color = "#FF9797", fillcolor = "#FF9797" ];
+  "ZkSync.requestFullExitNFT" [ label = "requestFullExitNFT", color = "#FF9797", fillcolor = "#FF9797" ];
+  "ZkSync.commitOneBlock" [ label = "commitOneBlock", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ZkSync.commitBlocks" [ label = "commitBlocks", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.withdrawOrStoreNFT" [ label = "withdrawOrStoreNFT", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ZkSync.withdrawOrStore" [ label = "withdrawOrStore", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ZkSync.storePendingNFT" [ label = "storePendingNFT" ];
+  "ZkSync.increasePendingBalance" [ label = "increasePendingBalance" ];
+  "ZkSync.handleWithdrawFT" [ label = "handleWithdrawFT", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ZkSync.handleWithdrawNFT" [ label = "handleWithdrawNFT", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ZkSync.executeOneBlock" [ label = "executeOneBlock", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ZkSync.executeBlocks" [ label = "executeBlocks", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.proveBlocks" [ label = "proveBlocks", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.revertBlocks" [ label = "revertBlocks", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.activateExodusMode" [ label = "activateExodusMode", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.performExodus" [ label = "performExodus", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.setAuthPubkeyHash" [ label = "setAuthPubkeyHash", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ZkSync.registerDeposit" [ label = "registerDeposit" ];
+  "ZkSync.collectOnchainOps" [ label = "collectOnchainOps" ];
+  "ZkSync.verifyChangePubkey" [ label = "verifyChangePubkey" ];
+  "ZkSync.verifyChangePubkeyECRECOVER" [ label = "verifyChangePubkeyECRECOVER" ];
+  "ZkSync.verifyChangePubkeyECRECOVERV2" [ label = "verifyChangePubkeyECRECOVERV2" ];
+  "ZkSync.verifyChangePubkeyOldECRECOVER" [ label = "verifyChangePubkeyOldECRECOVER" ];
+  "ZkSync.verifyChangePubkeyCREATE2" [ label = "verifyChangePubkeyCREATE2" ];
+  "ZkSync.createBlockCommitment" [ label = "createBlockCommitment" ];
+  "ZkSync.checkPriorityOperation" [ label = "checkPriorityOperation" ];
+  "ZkSync.addPriorityRequest" [ label = "addPriorityRequest" ];
+  "ZkSync.increaseBalanceToWithdraw" [ label = "increaseBalanceToWithdraw" ];
+  "ZkSync.sendETHNoRevert" [ label = "sendETHNoRevert" ];
+  "ZkSync.delegateAdditional" [ label = "delegateAdditional" ];
+  "ZkSync.NoticePeriodChange" [ label = "NoticePeriodChange" ];
+  "ZkSync.initializeReentrancyGuard" [ label = "initializeReentrancyGuard" ];
+  "ZkSync.Verifier" [ label = "Verifier" ];
+  "ZkSync.Governance" [ label = "Governance" ];
+  "ZkSync.AdditionalZkSync" [ label = "AdditionalZkSync" ];
+  "ZkSync.StoredBlockInfo" [ label = "StoredBlockInfo" ];
+  "ZkSync.hashStoredBlockInfo" [ label = "hashStoredBlockInfo" ];
+  "ZkSync.$" [ label = "$" ];
+  "ZkSync.requireActive" [ label = "requireActive" ];
+  "ZkSync.packAddressAndTokenId" [ label = "packAddressAndTokenId" ];
+  "ZkSync.IERC20" [ label = "IERC20" ];
+  "ZkSync.Withdrawal" [ label = "Withdrawal" ];
+  "ZkSync.WithdrawalNFT" [ label = "WithdrawalNFT" ];
+  "ZkSync.BlockCommit" [ label = "BlockCommit" ];
+  "ZkSync.WithdrawalNFTPending" [ label = "WithdrawalNFTPending" ];
+  "ZkSync.WithdrawalPending" [ label = "WithdrawalPending" ];
+  "ZkSync.BlockVerification" [ label = "BlockVerification" ];
+  "ZkSync.ExodusMode" [ label = "ExodusMode" ];
+  "ZkSync.Deposit" [ label = "Deposit" ];
+  "ZkSync.PriorityOperation" [ label = "PriorityOperation" ];
+  "ZkSync.NewPriorityRequest" [ label = "NewPriorityRequest" ];
+  "ZkSync.PendingBalance" [ label = "PendingBalance" ];
+}
+
+subgraph "clusterupgradeStartTimestamp" {
+  graph [ label = "upgradeStartTimestamp", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "upgradeStartTimestamp.add" [ label = "add" ];
+}
+
+subgraph "clusterIERC20" {
+  graph [ label = "IERC20", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "IERC20.balanceOf" [ label = "balanceOf" ];
+  "IERC20.transfer" [ label = "transfer" ];
+  "IERC20.transferFrom" [ label = "transferFrom" ];
+}
+
+subgraph "clusterbalanceBefore" {
+  graph [ label = "balanceBefore", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "balanceBefore.sub" [ label = "sub" ];
+}
+
+subgraph "clusterSafeCast" {
+  graph [ label = "SafeCast", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "SafeCast.toUint128" [ label = "toUint128" ];
+}
+
+subgraph "clustergovernance" {
+  graph [ label = "governance", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "governance.validateTokenAddress" [ label = "validateTokenAddress" ];
+  "governance.pausedTokens" [ label = "pausedTokens" ];
+  "governance.getNFTFactory" [ label = "getNFTFactory" ];
+  "governance.requireActiveValidator" [ label = "requireActiveValidator" ];
+  "governance.tokenAddresses" [ label = "tokenAddresses" ];
+}
+
+subgraph "clusterbalanceAfter" {
+  graph [ label = "balanceAfter", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "balanceAfter.sub" [ label = "sub" ];
+}
+
+subgraph "clusterUtils" {
+  graph [ label = "Utils", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "Utils.minU128" [ label = "minU128" ];
+  "Utils.concatHash" [ label = "concatHash" ];
+  "Utils.recoverAddressFromEthSignature" [ label = "recoverAddressFromEthSignature" ];
+  "Utils.hashBytesToBytes20" [ label = "hashBytesToBytes20" ];
+}
+
+subgraph "clusterNFTFactory" {
+  graph [ label = "NFTFactory", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "NFTFactory.mintNFTFromZkSync" [ label = "mintNFTFromZkSync" ];
+}
+
+subgraph "clusterOperations" {
+  graph [ label = "Operations", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "Operations.FullExit" [ label = "FullExit" ];
+  "Operations.writeFullExitPubdataForPriorityQueue" [ label = "writeFullExitPubdataForPriorityQueue" ];
+  "Operations.OpType" [ label = "OpType" ];
+  "Operations.readPartialExitPubdata" [ label = "readPartialExitPubdata" ];
+  "Operations.readForcedExitPubdata" [ label = "readForcedExitPubdata" ];
+  "Operations.readFullExitPubdata" [ label = "readFullExitPubdata" ];
+  "Operations.WithdrawNFT" [ label = "WithdrawNFT" ];
+  "Operations.readWithdrawNFTPubdata" [ label = "readWithdrawNFTPubdata" ];
+  "Operations.Deposit" [ label = "Deposit" ];
+  "Operations.writeDepositPubdataForPriorityQueue" [ label = "writeDepositPubdataForPriorityQueue" ];
+  "Operations.readDepositPubdata" [ label = "readDepositPubdata" ];
+  "Operations.readChangePubKeyPubdata" [ label = "readChangePubKeyPubdata" ];
+  "Operations.ChangePubkeyType" [ label = "ChangePubkeyType" ];
+  "Operations.checkDepositInPriorityQueue" [ label = "checkDepositInPriorityQueue" ];
+  "Operations.checkFullExitInPriorityQueue" [ label = "checkFullExitInPriorityQueue" ];
+}
+
+subgraph "clusterverifier" {
+  graph [ label = "verifier", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "verifier.verifyAggregatedBlockProof" [ label = "verifyAggregatedBlockProof" ];
+}
+
+subgraph "clusterBytes" {
+  graph [ label = "Bytes", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "Bytes.slice" [ label = "slice" ];
+  "Bytes.read" [ label = "read" ];
+  "Bytes.readBytes32" [ label = "readBytes32" ];
+  "Bytes.bytesToHexASCIIBytes" [ label = "bytesToHexASCIIBytes" ];
+  "Bytes.toBytesFromUInt32" [ label = "toBytesFromUInt32" ];
+  "Bytes.readAddress" [ label = "readAddress" ];
+}
+
+subgraph "clusterbalance" {
+  graph [ label = "balance", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "balance.add" [ label = "add" ];
+}
+
+  "ZkSync.upgradePreparationStarted";
+  "upgradeStartTimestamp.add";
+  "ZkSync.clearUpgradeStatus";
+  "ZkSync.NoticePeriodChange";
+  "ZkSync.upgradeCanceled";
+  "ZkSync.upgradeFinishes";
+  "ZkSync.<Constructor>";
+  "ZkSync.initializeReentrancyGuard";
+  "ZkSync.initialize";
+  "ZkSync.Verifier";
+  "ZkSync.Governance";
+  "ZkSync.AdditionalZkSync";
+  "ZkSync.StoredBlockInfo";
+  "ZkSync.hashStoredBlockInfo";
+  "ZkSync.upgrade";
+  "ZkSync.$";
+  "ZkSync.cutUpgradeNoticePeriod";
+  "ZkSync.delegateAdditional";
+  "ZkSync.cutUpgradeNoticePeriodBySignature";
+  "ZkSync.transferERC20";
+  "IERC20.balanceOf";
+  "IERC20.transfer";
+  "balanceBefore.sub";
+  "ZkSync.cancelOutstandingDepositsForExodusMode";
+  "ZkSync.depositETH";
+  "ZkSync.requireActive";
+  "ZkSync.registerDeposit";
+  "SafeCast.toUint128";
+  "ZkSync.depositERC20";
+  "governance.validateTokenAddress";
+  "governance.pausedTokens";
+  "IERC20.transferFrom";
+  "balanceAfter.sub";
+  "ZkSync.getPendingBalance";
+  "ZkSync.packAddressAndTokenId";
+  "ZkSync.withdrawPendingBalance";
+  "Utils.minU128";
+  "ZkSync.IERC20";
+  "ZkSync.Withdrawal";
+  "ZkSync.withdrawPendingNFTBalance";
+  "governance.getNFTFactory";
+  "NFTFactory.mintNFTFromZkSync";
+  "ZkSync.WithdrawalNFT";
+  "ZkSync.requestFullExit";
+  "Operations.FullExit";
+  "Operations.writeFullExitPubdataForPriorityQueue";
+  "ZkSync.addPriorityRequest";
+  "ZkSync.requestFullExitNFT";
+  "ZkSync.commitOneBlock";
+  "ZkSync.collectOnchainOps";
+  "ZkSync.createBlockCommitment";
+  "ZkSync.commitBlocks";
+  "governance.requireActiveValidator";
+  "ZkSync.BlockCommit";
+  "ZkSync.withdrawOrStoreNFT";
+  "ZkSync.storePendingNFT";
+  "ZkSync.withdrawOrStore";
+  "ZkSync.sendETHNoRevert";
+  "governance.tokenAddresses";
+  "ZkSync.increasePendingBalance";
+  "ZkSync.WithdrawalNFTPending";
+  "ZkSync.increaseBalanceToWithdraw";
+  "ZkSync.WithdrawalPending";
+  "ZkSync.handleWithdrawFT";
+  "ZkSync.handleWithdrawNFT";
+  "ZkSync.executeOneBlock";
+  "Operations.OpType";
+  "Operations.readPartialExitPubdata";
+  "Operations.readForcedExitPubdata";
+  "Operations.readFullExitPubdata";
+  "Operations.WithdrawNFT";
+  "Operations.readWithdrawNFTPubdata";
+  "Utils.concatHash";
+  "ZkSync.executeBlocks";
+  "ZkSync.BlockVerification";
+  "ZkSync.proveBlocks";
+  "verifier.verifyAggregatedBlockProof";
+  "ZkSync.revertBlocks";
+  "ZkSync.activateExodusMode";
+  "ZkSync.ExodusMode";
+  "ZkSync.performExodus";
+  "ZkSync.setAuthPubkeyHash";
+  "Operations.Deposit";
+  "Operations.writeDepositPubdataForPriorityQueue";
+  "ZkSync.Deposit";
+  "Bytes.slice";
+  "Operations.readDepositPubdata";
+  "ZkSync.checkPriorityOperation";
+  "Operations.readChangePubKeyPubdata";
+  "ZkSync.verifyChangePubkey";
+  "Operations.ChangePubkeyType";
+  "ZkSync.verifyChangePubkeyECRECOVER";
+  "ZkSync.verifyChangePubkeyCREATE2";
+  "ZkSync.verifyChangePubkeyOldECRECOVER";
+  "ZkSync.verifyChangePubkeyECRECOVERV2";
+  "Bytes.read";
+  "Utils.recoverAddressFromEthSignature";
+  "Bytes.readBytes32";
+  "Bytes.bytesToHexASCIIBytes";
+  "Bytes.toBytesFromUInt32";
+  "Bytes.readAddress";
+  "Operations.checkDepositInPriorityQueue";
+  "Operations.checkFullExitInPriorityQueue";
+  "Utils.hashBytesToBytes20";
+  "ZkSync.PriorityOperation";
+  "ZkSync.NewPriorityRequest";
+  "ZkSync.PendingBalance";
+  "balance.add";
+  "ZkSync.upgradePreparationStarted" -> "upgradeStartTimestamp.add" [ color = "white" ];
+  "ZkSync.clearUpgradeStatus" -> "ZkSync.NoticePeriodChange" [ color = "#1bc6a6" ];
+  "ZkSync.upgradeCanceled" -> "ZkSync.clearUpgradeStatus" [ color = "#1bc6a6" ];
+  "ZkSync.upgradeFinishes" -> "ZkSync.clearUpgradeStatus" [ color = "#1bc6a6" ];
+  "ZkSync.<Constructor>" -> "ZkSync.initializeReentrancyGuard" [ color = "#1bc6a6" ];
+  "ZkSync.initialize" -> "ZkSync.initializeReentrancyGuard" [ color = "#1bc6a6" ];
+  "ZkSync.initialize" -> "ZkSync.Verifier" [ color = "#1bc6a6" ];
+  "ZkSync.initialize" -> "ZkSync.Governance" [ color = "#1bc6a6" ];
+  "ZkSync.initialize" -> "ZkSync.AdditionalZkSync" [ color = "#1bc6a6" ];
+  "ZkSync.initialize" -> "ZkSync.StoredBlockInfo" [ color = "#1bc6a6" ];
+  "ZkSync.initialize" -> "ZkSync.hashStoredBlockInfo" [ color = "#1bc6a6" ];
+  "ZkSync.initialize" -> "ZkSync.NoticePeriodChange" [ color = "#1bc6a6" ];
+  "ZkSync.upgrade" -> "ZkSync.AdditionalZkSync" [ color = "#1bc6a6" ];
+  "ZkSync.upgrade" -> "ZkSync.$" [ color = "#1bc6a6" ];
+  "ZkSync.cutUpgradeNoticePeriod" -> "ZkSync.delegateAdditional" [ color = "#1bc6a6" ];
+  "ZkSync.cutUpgradeNoticePeriodBySignature" -> "ZkSync.delegateAdditional" [ color = "#1bc6a6" ];
+  "ZkSync.transferERC20" -> "IERC20.balanceOf" [ color = "white" ];
+  "ZkSync.transferERC20" -> "IERC20.transfer" [ color = "white" ];
+  "ZkSync.transferERC20" -> "IERC20.balanceOf" [ color = "white" ];
+  "ZkSync.transferERC20" -> "balanceBefore.sub" [ color = "white" ];
+  "ZkSync.cancelOutstandingDepositsForExodusMode" -> "ZkSync.delegateAdditional" [ color = "#1bc6a6" ];
+  "ZkSync.depositETH" -> "ZkSync.requireActive" [ color = "#1bc6a6" ];
+  "ZkSync.depositETH" -> "ZkSync.registerDeposit" [ color = "#1bc6a6" ];
+  "ZkSync.depositETH" -> "SafeCast.toUint128" [ color = "white" ];
+  "ZkSync.depositERC20" -> "ZkSync.requireActive" [ color = "#1bc6a6" ];
+  "ZkSync.depositERC20" -> "governance.validateTokenAddress" [ color = "white" ];
+  "ZkSync.depositERC20" -> "governance.pausedTokens" [ color = "white" ];
+  "ZkSync.depositERC20" -> "IERC20.balanceOf" [ color = "white" ];
+  "ZkSync.depositERC20" -> "IERC20.transferFrom" [ color = "white" ];
+  "ZkSync.depositERC20" -> "IERC20.balanceOf" [ color = "white" ];
+  "ZkSync.depositERC20" -> "SafeCast.toUint128" [ color = "white" ];
+  "ZkSync.depositERC20" -> "balanceAfter.sub" [ color = "white" ];
+  "ZkSync.depositERC20" -> "ZkSync.registerDeposit" [ color = "#1bc6a6" ];
+  "ZkSync.getPendingBalance" -> "governance.validateTokenAddress" [ color = "white" ];
+  "ZkSync.getPendingBalance" -> "ZkSync.packAddressAndTokenId" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawPendingBalance" -> "governance.validateTokenAddress" [ color = "white" ];
+  "ZkSync.withdrawPendingBalance" -> "ZkSync.packAddressAndTokenId" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawPendingBalance" -> "Utils.minU128" [ color = "white" ];
+  "ZkSync.withdrawPendingBalance" -> "ZkSync.transferERC20" [ color = "#80e097" ];
+  "ZkSync.withdrawPendingBalance" -> "ZkSync.IERC20" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawPendingBalance" -> "ZkSync.Withdrawal" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawPendingNFTBalance" -> "governance.getNFTFactory" [ color = "white" ];
+  "ZkSync.withdrawPendingNFTBalance" -> "NFTFactory.mintNFTFromZkSync" [ color = "white" ];
+  "ZkSync.withdrawPendingNFTBalance" -> "ZkSync.WithdrawalNFT" [ color = "#1bc6a6" ];
+  "ZkSync.requestFullExit" -> "ZkSync.requireActive" [ color = "#1bc6a6" ];
+  "ZkSync.requestFullExit" -> "governance.validateTokenAddress" [ color = "white" ];
+  "ZkSync.requestFullExit" -> "Operations.FullExit" [ color = "white" ];
+  "ZkSync.requestFullExit" -> "Operations.writeFullExitPubdataForPriorityQueue" [ color = "white" ];
+  "ZkSync.requestFullExit" -> "ZkSync.addPriorityRequest" [ color = "#1bc6a6" ];
+  "ZkSync.requestFullExit" -> "ZkSync.packAddressAndTokenId" [ color = "#1bc6a6" ];
+  "ZkSync.requestFullExitNFT" -> "ZkSync.requireActive" [ color = "#1bc6a6" ];
+  "ZkSync.requestFullExitNFT" -> "Operations.FullExit" [ color = "white" ];
+  "ZkSync.requestFullExitNFT" -> "Operations.writeFullExitPubdataForPriorityQueue" [ color = "white" ];
+  "ZkSync.requestFullExitNFT" -> "ZkSync.addPriorityRequest" [ color = "#1bc6a6" ];
+  "ZkSync.commitOneBlock" -> "ZkSync.collectOnchainOps" [ color = "#1bc6a6" ];
+  "ZkSync.commitOneBlock" -> "ZkSync.createBlockCommitment" [ color = "#1bc6a6" ];
+  "ZkSync.commitOneBlock" -> "ZkSync.StoredBlockInfo" [ color = "#1bc6a6" ];
+  "ZkSync.commitBlocks" -> "ZkSync.requireActive" [ color = "#1bc6a6" ];
+  "ZkSync.commitBlocks" -> "governance.requireActiveValidator" [ color = "white" ];
+  "ZkSync.commitBlocks" -> "ZkSync.hashStoredBlockInfo" [ color = "#1bc6a6" ];
+  "ZkSync.commitBlocks" -> "ZkSync.commitOneBlock" [ color = "#1bc6a6" ];
+  "ZkSync.commitBlocks" -> "ZkSync.hashStoredBlockInfo" [ color = "#1bc6a6" ];
+  "ZkSync.commitBlocks" -> "ZkSync.BlockCommit" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawOrStoreNFT" -> "governance.getNFTFactory" [ color = "white" ];
+  "ZkSync.withdrawOrStoreNFT" -> "ZkSync.WithdrawalNFT" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawOrStoreNFT" -> "ZkSync.storePendingNFT" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawOrStore" -> "ZkSync.sendETHNoRevert" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawOrStore" -> "governance.tokenAddresses" [ color = "white" ];
+  "ZkSync.withdrawOrStore" -> "ZkSync.IERC20" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawOrStore" -> "ZkSync.Withdrawal" [ color = "#1bc6a6" ];
+  "ZkSync.withdrawOrStore" -> "ZkSync.increasePendingBalance" [ color = "#1bc6a6" ];
+  "ZkSync.storePendingNFT" -> "ZkSync.WithdrawalNFTPending" [ color = "#1bc6a6" ];
+  "ZkSync.increasePendingBalance" -> "ZkSync.packAddressAndTokenId" [ color = "#1bc6a6" ];
+  "ZkSync.increasePendingBalance" -> "ZkSync.increaseBalanceToWithdraw" [ color = "#1bc6a6" ];
+  "ZkSync.increasePendingBalance" -> "ZkSync.WithdrawalPending" [ color = "#1bc6a6" ];
+  "ZkSync.handleWithdrawFT" -> "ZkSync.withdrawOrStore" [ color = "#1bc6a6" ];
+  "ZkSync.handleWithdrawFT" -> "ZkSync.increasePendingBalance" [ color = "#1bc6a6" ];
+  "ZkSync.handleWithdrawNFT" -> "ZkSync.withdrawOrStoreNFT" [ color = "#1bc6a6" ];
+  "ZkSync.handleWithdrawNFT" -> "ZkSync.storePendingNFT" [ color = "#1bc6a6" ];
+  "ZkSync.executeOneBlock" -> "ZkSync.hashStoredBlockInfo" [ color = "#1bc6a6" ];
+  "ZkSync.executeOneBlock" -> "Operations.OpType" [ color = "white" ];
+  "ZkSync.executeOneBlock" -> "Operations.readPartialExitPubdata" [ color = "white" ];
+  "ZkSync.executeOneBlock" -> "ZkSync.handleWithdrawFT" [ color = "#1bc6a6" ];
+  "ZkSync.executeOneBlock" -> "Operations.readForcedExitPubdata" [ color = "white" ];
+  "ZkSync.executeOneBlock" -> "ZkSync.handleWithdrawFT" [ color = "#1bc6a6" ];
+  "ZkSync.executeOneBlock" -> "Operations.readFullExitPubdata" [ color = "white" ];
+  "ZkSync.executeOneBlock" -> "ZkSync.handleWithdrawFT" [ color = "#1bc6a6" ];
+  "ZkSync.executeOneBlock" -> "Operations.WithdrawNFT" [ color = "white" ];
+  "ZkSync.executeOneBlock" -> "ZkSync.handleWithdrawNFT" [ color = "#1bc6a6" ];
+  "ZkSync.executeOneBlock" -> "Operations.readWithdrawNFTPubdata" [ color = "white" ];
+  "ZkSync.executeOneBlock" -> "ZkSync.handleWithdrawNFT" [ color = "#1bc6a6" ];
+  "ZkSync.executeOneBlock" -> "Utils.concatHash" [ color = "white" ];
+  "ZkSync.executeBlocks" -> "ZkSync.requireActive" [ color = "#1bc6a6" ];
+  "ZkSync.executeBlocks" -> "governance.requireActiveValidator" [ color = "white" ];
+  "ZkSync.executeBlocks" -> "ZkSync.executeOneBlock" [ color = "#1bc6a6" ];
+  "ZkSync.executeBlocks" -> "ZkSync.BlockVerification" [ color = "#1bc6a6" ];
+  "ZkSync.proveBlocks" -> "ZkSync.requireActive" [ color = "#1bc6a6" ];
+  "ZkSync.proveBlocks" -> "ZkSync.hashStoredBlockInfo" [ color = "#1bc6a6" ];
+  "ZkSync.proveBlocks" -> "verifier.verifyAggregatedBlockProof" [ color = "white" ];
+  "ZkSync.revertBlocks" -> "ZkSync.delegateAdditional" [ color = "#1bc6a6" ];
+  "ZkSync.activateExodusMode" -> "ZkSync.ExodusMode" [ color = "#1bc6a6" ];
+  "ZkSync.performExodus" -> "ZkSync.delegateAdditional" [ color = "#1bc6a6" ];
+  "ZkSync.setAuthPubkeyHash" -> "ZkSync.delegateAdditional" [ color = "#1bc6a6" ];
+  "ZkSync.registerDeposit" -> "Operations.Deposit" [ color = "white" ];
+  "ZkSync.registerDeposit" -> "Operations.writeDepositPubdataForPriorityQueue" [ color = "white" ];
+  "ZkSync.registerDeposit" -> "ZkSync.addPriorityRequest" [ color = "#1bc6a6" ];
+  "ZkSync.registerDeposit" -> "ZkSync.Deposit" [ color = "#1bc6a6" ];
+  "ZkSync.collectOnchainOps" -> "Operations.OpType" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "Bytes.slice" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "Operations.readDepositPubdata" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "ZkSync.checkPriorityOperation" [ color = "#1bc6a6" ];
+  "ZkSync.collectOnchainOps" -> "Bytes.slice" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "Operations.readChangePubKeyPubdata" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "ZkSync.verifyChangePubkey" [ color = "#1bc6a6" ];
+  "ZkSync.collectOnchainOps" -> "Bytes.slice" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "Bytes.slice" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "Bytes.slice" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "Bytes.slice" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "Operations.readFullExitPubdata" [ color = "white" ];
+  "ZkSync.collectOnchainOps" -> "ZkSync.checkPriorityOperation" [ color = "#1bc6a6" ];
+  "ZkSync.collectOnchainOps" -> "Utils.concatHash" [ color = "white" ];
+  "ZkSync.verifyChangePubkey" -> "Operations.ChangePubkeyType" [ color = "white" ];
+  "ZkSync.verifyChangePubkey" -> "ZkSync.verifyChangePubkeyECRECOVER" [ color = "#1bc6a6" ];
+  "ZkSync.verifyChangePubkey" -> "ZkSync.verifyChangePubkeyCREATE2" [ color = "#1bc6a6" ];
+  "ZkSync.verifyChangePubkey" -> "ZkSync.verifyChangePubkeyOldECRECOVER" [ color = "#1bc6a6" ];
+  "ZkSync.verifyChangePubkey" -> "ZkSync.verifyChangePubkeyECRECOVERV2" [ color = "#1bc6a6" ];
+  "ZkSync.verifyChangePubkeyECRECOVER" -> "Bytes.read" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyECRECOVER" -> "Utils.recoverAddressFromEthSignature" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyECRECOVERV2" -> "Bytes.read" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyECRECOVERV2" -> "Bytes.readBytes32" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyECRECOVERV2" -> "Utils.recoverAddressFromEthSignature" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyOldECRECOVER" -> "Bytes.read" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyOldECRECOVER" -> "Bytes.bytesToHexASCIIBytes" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyOldECRECOVER" -> "Bytes.bytesToHexASCIIBytes" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyOldECRECOVER" -> "Bytes.toBytesFromUInt32" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyOldECRECOVER" -> "Bytes.bytesToHexASCIIBytes" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyOldECRECOVER" -> "Bytes.toBytesFromUInt32" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyOldECRECOVER" -> "Utils.recoverAddressFromEthSignature" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyCREATE2" -> "Bytes.readAddress" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyCREATE2" -> "Bytes.readBytes32" [ color = "white" ];
+  "ZkSync.verifyChangePubkeyCREATE2" -> "Bytes.readBytes32" [ color = "white" ];
+  "ZkSync.checkPriorityOperation" -> "Operations.checkDepositInPriorityQueue" [ color = "white" ];
+  "ZkSync.checkPriorityOperation" -> "Operations.checkFullExitInPriorityQueue" [ color = "white" ];
+  "ZkSync.addPriorityRequest" -> "Utils.hashBytesToBytes20" [ color = "white" ];
+  "ZkSync.addPriorityRequest" -> "ZkSync.PriorityOperation" [ color = "#1bc6a6" ];
+  "ZkSync.addPriorityRequest" -> "ZkSync.NewPriorityRequest" [ color = "#1bc6a6" ];
+  "ZkSync.increaseBalanceToWithdraw" -> "ZkSync.PendingBalance" [ color = "#1bc6a6" ];
+  "ZkSync.increaseBalanceToWithdraw" -> "balance.add" [ color = "white" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="#445773">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="#e8726d">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="#1bc6a6"]
+key:i2:e -> key2:i2:w [color="white"]
+}
+}
