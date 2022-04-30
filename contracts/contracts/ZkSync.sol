@@ -72,35 +72,47 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
     }
 
     // Upgrade functional
+    /// @todo
 
     /// @notice Notice period before activation preparation status of upgrade mode
     function getNoticePeriod() external pure override returns (uint256) {
+        // 在upgrade gatekeeper中有进一步使用
         return 0;
     }
 
     /// @notice Notification that upgrade notice period started
     /// @dev Can be external because Proxy contract intercepts illegal calls of this function
+    // override说明其他contract中有同名的function，应该就是upgrade gatekeeper中
+    // 这个function能被external call，是因为Proxy做了限制，听起来很厉害的样子
     function upgradeNoticePeriodStarted() external override {
+        // global variables
         upgradeStartTimestamp = block.timestamp;
     }
 
     /// @notice Notification that upgrade preparation status is activated
     /// @dev Can be external because Proxy contract intercepts illegal calls of this function
     function upgradePreparationStarted() external override {
+        // 超过指定的timestamp之后才能开始更新
         require(block.timestamp >= upgradeStartTimestamp.add(approvedUpgradeNoticePeriod));
 
+        // 激活更新状态
         upgradePreparationActive = true;
         upgradePreparationActivationTime = block.timestamp;
     }
 
     /// @dev When upgrade is finished or canceled we must clean upgrade-related state.
+    // 更新完成/取消后，clean更新的相关状态
     function clearUpgradeStatus() internal {
+        // 还原preparation
         upgradePreparationActive = false;
         upgradePreparationActivationTime = 0;
+        // Upgrade Notice Period（升级通知期？）
         approvedUpgradeNoticePeriod = UPGRADE_NOTICE_PERIOD;
+        // event.sol中定义的事件
         emit NoticePeriodChange(approvedUpgradeNoticePeriod);
         upgradeStartTimestamp = 0;
         for (uint256 i = 0; i < SECURITY_COUNCIL_MEMBERS_NUMBER; ++i) {
+            // clean
             securityCouncilApproves[i] = false;
         }
         numberOfApprovalsFromSecurityCouncil = 0;
@@ -108,18 +120,21 @@ contract ZkSync is UpgradeableMaster, Storage, Config, Events, ReentrancyGuard {
 
     /// @notice Notification that upgrade canceled
     /// @dev Can be external because Proxy contract intercepts illegal calls of this function
+    // 取消更新
     function upgradeCanceled() external override {
         clearUpgradeStatus();
     }
 
     /// @notice Notification that upgrade finishes
     /// @dev Can be external because Proxy contract intercepts illegal calls of this function
+    // 更新完成后，一样清除state
     function upgradeFinishes() external override {
         clearUpgradeStatus();
     }
 
     /// @notice Checks that contract is ready for upgrade
     /// @return bool flag indicating that contract is ready for upgrade
+    // 调用这个function，就表示合约已经准备升级
     function isReadyForUpgrade() external view override returns (bool) {
         return true;
     }
