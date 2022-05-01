@@ -14,7 +14,7 @@ async function main() {
     const parser = new ArgumentParser({
         version: '0.1.0',
         addHelp: true,
-        description: 'Deploy contracts and publish them on Etherscan'
+        description: 'Deploy contracts and publish them on Etherscan/Tesseracts'
     });
     parser.addArgument('--deployerPrivateKey', { required: false, help: 'Wallet used to deploy contracts.' });
     parser.addArgument('--governor', { required: false, help: 'governor address' });
@@ -51,21 +51,6 @@ async function main() {
 
     const deployer = new Deployer({ deployWallet: wallet, governorAddress, verbose: true });
 
-    // We don't deploy it by default, since
-    // the address of it wouldn't be able to be inserted into the solpp
-    // for ZkSync smart contract
-    if (args.contract === 'RegenesisMultisig') {
-        await deployer.deployRegenesisMultisig({ gasPrice, nonce: args.nonce });
-    }
-
-    if (args.contract === 'Create2Factory' || args.contract == null) {
-        await deployer.deployCreate2Factory({ gasPrice, nonce: args.nonce });
-    }
-
-    if (args.contract === 'AdditionalZkSync' || args.contract == null) {
-        await deployer.deployAdditionalZkSync({ gasPrice, nonce: args.nonce });
-    }
-
     if (args.contract === 'ZkSync' || args.contract == null) {
         await deployer.deployZkSyncTarget({ gasPrice, nonce: args.nonce });
     }
@@ -80,18 +65,6 @@ async function main() {
 
     if (args.contract === 'Proxies' || args.contract == null) {
         await deployer.deployProxiesAndGatekeeper({ gasPrice, nonce: args.nonce });
-    }
-
-    if (args.contract === 'TokenGovernance' || args.contract == null) {
-        await deployer.deployTokenGovernance({ gasPrice, nonce: args.nonce });
-    }
-
-    if (args.contract === 'ZkSyncNFTFactory' || args.contract == null) {
-        await deployer.deployNFTFactory({ gasPrice, nonce: args.nonce });
-    }
-
-    if (args.contract === 'ForcedExit' || args.contract == null) {
-        await deployer.deployForcedExit({ gasPrice, nonce: args.nonce });
     }
 }
 

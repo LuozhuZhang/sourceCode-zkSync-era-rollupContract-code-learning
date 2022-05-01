@@ -8,7 +8,6 @@ import "./UpgradeGatekeeper.sol";
 import "./ZkSync.sol";
 import "./Verifier.sol";
 import "./TokenInit.sol";
-import "./AdditionalZkSync.sol";
 
 contract DeployFactory is TokenDeployInit {
     // Why do we deploy contracts in the constructor?
@@ -36,9 +35,9 @@ contract DeployFactory is TokenDeployInit {
         address _governor,
         address _feeAccountAddress
     ) {
-        require(_firstValidator != address(0), "validator check");
-        require(_governor != address(0), "governor check");
-        require(_feeAccountAddress != address(0), "fee acc address check");
+        require(_firstValidator != address(0));
+        require(_governor != address(0));
+        require(_feeAccountAddress != address(0));
 
         deployProxyContracts(_govTarget, _verifierTarget, _zkSyncTarget, _genesisRoot, _firstValidator, _governor);
 
@@ -58,11 +57,8 @@ contract DeployFactory is TokenDeployInit {
         Proxy governance = new Proxy(address(_governanceTarget), abi.encode(this));
         // set this contract as governor
         Proxy verifier = new Proxy(address(_verifierTarget), abi.encode());
-        AdditionalZkSync additionalZkSync = new AdditionalZkSync();
-        Proxy zkSync = new Proxy(
-            address(_zksyncTarget),
-            abi.encode(address(governance), address(verifier), address(additionalZkSync), _genesisRoot)
-        );
+        Proxy zkSync =
+            new Proxy(address(_zksyncTarget), abi.encode(address(governance), address(verifier), _genesisRoot));
 
         UpgradeGatekeeper upgradeGatekeeper = new UpgradeGatekeeper(zkSync);
 
@@ -91,7 +87,6 @@ contract DeployFactory is TokenDeployInit {
         for (uint256 i = 0; i < tokens.length; ++i) {
             _governance.addToken(tokens[i]);
         }
-        _governance.changeTokenGovernance(TokenGovernance(_finalGovernor));
         _governance.setValidator(_validator, true);
         _governance.changeGovernor(_finalGovernor);
     }

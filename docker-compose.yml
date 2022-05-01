@@ -1,0 +1,52 @@
+version: '3.2'
+services:
+  postgres:
+    image: "postgres:12"
+    ports:
+      - "5432:5432"
+    volumes:
+    - type: bind
+      source: ./volumes/postgres
+      target: /var/lib/postgresql/data
+    environment:
+        - POSTGRES_HOST_AUTH_METHOD=trust
+  geth:
+    image: "matterlabs/geth:latest"
+    ports:
+      - "8545:8545"
+      - "8546:8546"
+    volumes:
+    - type: bind
+      source: ./volumes/geth
+      target: /var/lib/geth/data
+  dev-liquidity-token-watcher:
+    image: "matterlabs/dev-liquidity-token-watcher:latest"
+    env_file:
+      - ./etc/env/docker.env
+    ports:
+      - "9975:9975"
+    volumes:
+      - ./etc/tokens/:/etc/tokens
+
+  dev-ticker:
+    image: "matterlabs/dev-ticker:latest"
+    ports:
+      - "9876:9876"
+  tesseracts:
+    image: "adria0/tesseracts"
+    command: --cfg /tesseracts.toml -vvv
+    ports:
+      - "8000:8000"
+    volumes:
+    - ./etc/tesseracts/tesseracts.toml:/tesseracts.toml
+    - type: bind
+      source: ./volumes/tesseracts
+      target: /var/lib/tesseracts/data
+
+  elastic:
+    image: elasticsearch:7.10.1
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      - discovery.type=single-node

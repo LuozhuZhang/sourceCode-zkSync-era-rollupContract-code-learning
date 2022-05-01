@@ -1,0 +1,44 @@
+[workspace]
+members = [
+    # Binaries
+    "core/bin/data_restore",
+    "core/bin/key_generator",
+    "core/bin/server",
+    "core/bin/prover",
+    "core/bin/parse_pub_data",
+
+    # Server micro-services
+    "core/bin/zksync_api",
+    "core/bin/zksync_core",
+    "core/bin/zksync_eth_sender",
+    "core/bin/zksync_witness_generator",
+
+    # Libraries
+    "core/lib/circuit",
+    "core/lib/eth_client",
+    "core/lib/eth_signer",
+    "core/lib/prometheus_exporter",
+    "core/lib/types",
+    "core/lib/state",
+    "core/lib/storage",
+    "core/lib/vlog",
+    "core/lib/crypto",
+    "core/lib/utils",
+    "core/lib/basic_types",
+    "core/lib/prover_utils",
+    "core/lib/config",
+    "core/lib/contracts",
+    "core/lib/api_client",
+    "core/lib/balancer",
+
+    # Test infrastructure
+    "core/tests/test_account",
+    "core/tests/testkit",
+    "core/tests/loadtest",
+
+    # SDK section
+    "sdk/zksync-rs",
+]
+
+[patch.crates-io]
+ethabi = { git = "https://github.com/dvush/ethabi.git" }

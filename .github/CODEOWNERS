@@ -1,0 +1,5 @@
+# about codeowners:
+# https://help.github.com/articles/about-codeowners/
+
+# Changes in smart contracts
+/contracts/contracts     @dvush @popzxc

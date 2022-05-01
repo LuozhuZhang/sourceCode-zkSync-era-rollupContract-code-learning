@@ -34,7 +34,7 @@ contract Multicall {
         returnData = new bytes[](calls.length);
         for (uint256 i = 0; i < calls.length; i++) {
             (bool success, bytes memory ret) = calls[i].target.call(calls[i].callData);
-            require(success, "call fail");
+            require(success);
             returnData[i] = ret;
         }
     }

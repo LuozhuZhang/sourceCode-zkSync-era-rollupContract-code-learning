@@ -67,7 +67,7 @@ async function main() {
         .action(async (cmd: Command) => {
             const token: TokenDescription = {
                 address: null,
-                name: cmd.tokenName,
+                name: cmd.token_name,
                 symbol: cmd.symbol,
                 decimals: cmd.decimals,
                 implementation: cmd.implementation

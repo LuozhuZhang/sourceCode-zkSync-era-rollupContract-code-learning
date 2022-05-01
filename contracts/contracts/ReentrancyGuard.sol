@@ -26,31 +26,16 @@ contract ReentrancyGuard {
     /// @dev Flag is placed at random memory location to not interfere with Storage contract.
     uint256 private constant LOCK_FLAG_ADDRESS = 0x8e94fed44239eb2314ab7a406345e6c5a8f0ccedf3b600de3d004e672c33abf4; // keccak256("ReentrancyGuard") - 1;
 
-    // https://github.com/OpenZeppelin/openzeppelin-contracts/blob/566a774222707e424896c0c390a84dc3c13bdcb2/contracts/security/ReentrancyGuard.sol
-    // The values being non-zero value makes deployment a bit more expensive,
-    // but in exchange the refund on every call to nonReentrant will be lower in
-    // amount. Since refunds are capped to a percentage of the total
-    // transaction's gas, it is best to keep them low in cases like this one, to
-    // increase the likelihood of the full refund coming into effect.
-    uint256 private constant _NOT_ENTERED = 1;
-    uint256 private constant _ENTERED = 2;
-
     function initializeReentrancyGuard() internal {
-        uint256 lockSlotOldValue;
-
         // Storing an initial non-zero value makes deployment a bit more
-        // expensive, but in exchange every call to nonReentrant
-        // will be cheaper.
+        // expensive, but in exchange the refund on every call to nonReentrant
+        // will be lower in amount. Since refunds are capped to a percetange of
+        // the total transaction's gas, it is best to keep them low in cases
+        // like this one, to increase the likelihood of the full refund coming
+        // into effect.
         assembly {
-            // 读取storage[LOCK_FLAG_ADDRESS]
-            lockSlotOldValue := sload(LOCK_FLAG_ADDRESS)
-            // 存入一个非零值：storage[LOCK_FLAG_ADDRESS] := _NOT_ENTERED/1
-            sstore(LOCK_FLAG_ADDRESS, _NOT_ENTERED)
+            sstore(LOCK_FLAG_ADDRESS, 1)
         }
-
-        // Check that storage slot for reentrancy guard is empty to rule out possibility of double initialization
-        // 防止重入初始化，等一下研究研究
-        require(lockSlotOldValue == 0, "1B");
     }
 
     /**
@@ -61,17 +46,17 @@ contract ReentrancyGuard {
      * `private` function that does the actual work.
      */
     modifier nonReentrant() {
-        uint256 _status;
+        bool notEntered;
         assembly {
-            _status := sload(LOCK_FLAG_ADDRESS)
+            notEntered := sload(LOCK_FLAG_ADDRESS)
         }
 
         // On the first call to nonReentrant, _notEntered will be true
-        require(_status == _NOT_ENTERED);
+        require(notEntered, "1b");
 
         // Any calls to nonReentrant after this point will fail
         assembly {
-            sstore(LOCK_FLAG_ADDRESS, _ENTERED)
+            sstore(LOCK_FLAG_ADDRESS, 0)
         }
 
         _;
@@ -79,7 +64,7 @@ contract ReentrancyGuard {
         // By storing the original value once again, a refund is triggered (see
         // https://eips.ethereum.org/EIPS/eip-2200)
         assembly {
-            sstore(LOCK_FLAG_ADDRESS, _NOT_ENTERED)
+            sstore(LOCK_FLAG_ADDRESS, 1)
         }
     }
 }

@@ -14,17 +14,8 @@ interface Events {
     /// @notice Event emitted when a block is verified
     event BlockVerification(uint32 indexed blockNumber);
 
-    /// @notice Event emitted when user funds are withdrawn from the zkSync state and contract
+    /// @notice Event emitted when user funds are withdrawn from the zkSync contract
     event Withdrawal(uint16 indexed tokenId, uint128 amount);
-
-    /// @notice Event emitted when user funds are withdrawn from the zkSync state but not from contract
-    event WithdrawalPending(uint16 indexed tokenId, address indexed recepient, uint128 amount);
-
-    /// @notice Event emitted when user NFT is withdrawn from the zkSync state and contract
-    event WithdrawalNFT(uint32 indexed tokenId);
-
-    /// @notice Event emitted when user NFT is withdrawn from the zkSync state but not from contract
-    event WithdrawalNFTPending(uint32 indexed tokenId);
 
     /// @notice Event emitted when user funds are deposited to the zkSync contract
     event Deposit(uint16 indexed tokenId, uint128 amount);
@@ -64,12 +55,6 @@ interface Events {
         uint16 indexed tokenId,
         uint128 amount
     );
-
-    /// @notice Approve cut of upgrade notice period by addr
-    event ApproveCutUpgradeNoticePeriod(address indexed addr);
-
-    /// @notice Notice period changed
-    event NoticePeriodChange(uint256 newNoticePeriod);
 }
 
 /// @title Upgrade events

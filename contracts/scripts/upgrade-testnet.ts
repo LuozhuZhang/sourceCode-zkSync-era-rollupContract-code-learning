@@ -14,7 +14,7 @@ async function main() {
     const parser = new ArgumentParser({
         version: '0.1.0',
         addHelp: true,
-        description: 'Deploy new contracts and upgrade testnet proxy'
+        description: 'Deploy new contracts and upgrade testnet proxy Tesseracts'
     });
     parser.addArgument('--deployerPrivateKey', { required: false, help: 'Wallet used to deploy contracts.' });
     parser.addArgument('--governor', { required: false, help: 'governor address' });
@@ -26,7 +26,8 @@ async function main() {
     });
     parser.addArgument('--initArgs', {
         required: false,
-        help: 'Upgrade function parameters comma-separated, RLP serialized in hex (Governance,Verifier,ZkSync): 0xaa..aa,0xbb..bb,0xcc..c or zero by default.',
+        help:
+            'Upgrade function parameters comma-separated, RLP serialized in hex (Governance,Verifier,ZkSync): 0xaa..aa,0xbb..bb,0xcc..c or zero by default.',
         defaultValue: '0x,0x,0x'
     });
     parser.addArgument('--cancelPreviousUpgrade', {
@@ -40,10 +41,7 @@ async function main() {
 
     const wallet = args.deployerPrivateKey
         ? new Wallet(args.deployerPrivateKey, provider)
-        : Wallet.fromMnemonic(
-              process.env.MNEMONIC ? process.env.MNEMONIC : ethTestConfig.mnemonic,
-              "m/44'/60'/0'/0/1"
-          ).connect(provider);
+        : Wallet.fromMnemonic(ethTestConfig.mnemonic, "m/44'/60'/0'/0/1").connect(provider);
 
     const gasPrice = args.gasPrice ? parseUnits(args.gasPrice, 'gwei') : await provider.getGasPrice();
     console.info(`Using gas price: ${formatUnits(gasPrice, 'gwei')} gwei`);
