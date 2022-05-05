@@ -34,10 +34,10 @@ zkSync's blockchain browser, which directly receives data from the server API (w
 More detailed disassembly of the server (to implement rollup, you need to write a network)
 * 1) There is a complete binary monolithic application in core/bin/server, which can realize all functions (Monolithic application, which means binary? All these functions can be compressed by binary)
 * 2) The server also implements a modular (Microservices applications, non-binary) <br/>
-core/bin/zksync_core (as the CORE server) contains the memory pool of the transaction and the commit of the new blocks<br/>
-core/bin/zksync_api (API server) implements the front-end (front-end) communication interface of REST API, JSON RPC, HTTP/WS<br/>
-core/bin/zksync_eth_sender (Ethereum Sender server) sends the batched blocks back to the layer1 contract (this is very important, because it communicates with the rollup contract of l1, and there is a corresponding eth watcher)<br/>
-core/bin/zksync_witness_generator (Witness Generator service), seems to be a module that regularly processes witness to generate proof (the original text is "creates input data required for provers to prove blocks, and implements a private API server for provers to interact with.")<br />
+  * core/bin/zksync_core (as the CORE server) contains the memory pool of the transaction and the commit of the new blocks<br/>
+  * core/bin/zksync_api (API server) implements the front-end (front-end) communication interface of REST API, JSON RPC, HTTP/WS<br/>
+  * core/bin/zksync_eth_sender (Ethereum Sender server) sends the batched blocks back to the layer1 contract (this is very important, because it communicates with the rollup contract of l1, and there is a corresponding eth watcher)<br/>
+  * core/bin/zksync_witness_generator (Witness Generator service), seems to be a module that regularly processes witness to generate proof (the original text is "creates input data required for provers to prove blocks, and implements a private API server for provers to interact with.")<br />
 
 How zkSync is started
 * 1) compiled and deployed zkSync contract on L1
@@ -154,10 +154,10 @@ zkSync的区块链浏览器，从server API中直接接收数据（大概率获�
 更详细的拆解server（实现rollup就需要写一个network）
 * 1）core/bin/server中有一个完整的binary单片应用，可以实现所有的功能（Monolithic application，有指binary的意思？所有这些功能都由binary就可以压缩完成）
 * 2）server还实现了一个模块化的（Microservices applications，非binary）<br/>
-core/bin/zksync_core（作为CORE server）中包含了transaction的memory pool，还有new blocks的commit<br/>
-core/bin/zksync_api（API server）实现了REST API、JSON RPC、HTTP/WS的front-end（前端）通信接口<br/>
-core/bin/zksync_eth_sender（Ethereum Sender server）把batch打包完的blocks传回layer1 contract（这个很重要，因为和l1的rollup contract通信，对应的还有一个eth watcher）<br/>
-core/bin/zksync_witness_generator（Witness Generator service），貌似是定期处理witness生成proof的模块（原文是“creates input data required for provers to prove blocks, and implements a private API server for provers to interact with.” ）<br/>
+  * core/bin/zksync_core（作为CORE server）中包含了transaction的memory pool，还有new blocks的commit<br/>
+  * core/bin/zksync_api（API server）实现了REST API、JSON RPC、HTTP/WS的front-end（前端）通信接口<br/>
+  * core/bin/zksync_eth_sender（Ethereum Sender server）把batch打包完的blocks传回layer1 contract（这个很重要，因为和l1的rollup contract通信，对应的还有一个eth watcher）<br/>
+  * core/bin/zksync_witness_generator（Witness Generator service），貌似是定期处理witness生成proof的模块（原文是“creates input data required for provers to prove blocks, and implements a private API server for provers to interact with.” ）<br/>
 
 zkSync启动的方式
 * 1）compiled and deployed zkSync contract on L1
