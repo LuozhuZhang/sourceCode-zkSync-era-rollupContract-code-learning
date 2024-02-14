@@ -1,4 +1,4 @@
-# Editor directories and files
+```
 .idea
 *.suo
 *.ntvs*
@@ -46,3 +46,4 @@ go_to_env.sh
 core/lib/storage/.env
 
 .zcli-config.json
+```
